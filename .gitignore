@@ -1,0 +1,35 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Ruby
+*.gem
+.bundle/
+vendor/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Python (if using any scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node (if using any build tools)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
