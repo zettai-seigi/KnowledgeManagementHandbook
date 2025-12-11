@@ -135,7 +135,7 @@ The Steering Committee provides executive oversight and strategic direction for 
 | **Duration** | 2 hours per meeting |
 | **Quorum** | 60% of voting members including chair |
 | **Key Responsibilities** | Strategy approval, budget allocation, policy ratification, risk oversight, performance review |
-| **Decision Authority** | Strategic investments (>$50K), major policy changes, program priorities, escalated disputes |
+| **Decision Authority** | Strategic investments (example threshold: >$50K—adjust to your organization), major policy changes, program priorities, escalated disputes |
 
 **Charter Elements:**
 
@@ -193,7 +193,7 @@ The KM Council translates strategic direction into operational policies and stan
 | **Duration** | 90 minutes per meeting |
 | **Quorum** | 50% of members |
 | **Key Responsibilities** | Standard development, process optimization, issue resolution, taxonomy management, quality oversight |
-| **Decision Authority** | Operational policies, standards, process changes, tool selection (<$50K), content disputes |
+| **Decision Authority** | Operational policies, standards, process changes, tool selection (example threshold: <$50K), content disputes |
 
 **Membership Structure:**
 
@@ -251,7 +251,7 @@ The KM Council translates strategic direction into operational policies and stan
 | **Routine Standards** | Council consensus | Discussion and approval in meeting |
 | **Policy Interpretation** | Council majority | Documented interpretation published |
 | **Content Disputes** | Knowledge Owner decision | Council provides advisory input |
-| **Investment <$50K** | Council approval | Business case review and vote |
+| **Investment <$50K (example threshold)** | Council approval | Business case review and vote |
 | **Major Changes** | Escalate to Steering Committee | Recommendation with rationale |
 
 #### Tier 3: Operational Governance
@@ -673,8 +673,8 @@ Decisions regarding budget allocation, resource commitment, and financial invest
 | Decision Type | Examples | Decision Maker | Approval Process |
 |---------------|----------|----------------|------------------|
 | **Annual Budget** | FY budget allocation | Steering Committee | Budget planning cycle |
-| **Major Investment (>$50K)** | Platform upgrade, consulting | Steering Committee | Business case approval |
-| **Minor Investment (<$50K)** | Tools, training, projects | KM Council | Council approval |
+| **Major Investment (>$50K threshold example)** | Platform upgrade, consulting | Steering Committee | Business case approval |
+| **Minor Investment (<$50K threshold example)** | Tools, training, projects | KM Council | Council approval |
 | **Resource Allocation** | Headcount, contractor budget | Steering Committee | Resource planning |
 | **Emergency Funding** | Unplanned critical needs | Steering Committee Chair | Emergency authorization |
 
@@ -696,9 +696,9 @@ Clear decision authority prevents bottlenecks and ensures appropriate governance
 | **Cross-Domain Content** | Multiple domains affected | KM Council | Council consensus | Steering Committee |
 | **Operational Policy** | Day-to-day standards | KM Council | Council majority | Steering Committee |
 | **Strategic Policy** | Organization-wide impact | Steering Committee | Committee majority | Executive Leadership |
-| **Minor Investment (<$10K)** | Low financial impact | KM Manager | Budget availability | KM Council |
-| **Medium Investment ($10K-$50K)** | Moderate financial impact | KM Council | Council approval | Steering Committee |
-| **Major Investment (>$50K)** | Significant financial impact | Steering Committee | Committee approval | Executive Leadership |
+| **Minor Investment (<$10K example threshold)** | Low financial impact | KM Manager | Budget availability | KM Council |
+| **Medium Investment ($10K-$50K example threshold)** | Moderate financial impact | KM Council | Council approval | Steering Committee |
+| **Major Investment (>$50K example threshold)** | Significant financial impact | Steering Committee | Committee approval | Executive Leadership |
 | **Technology Selection** | Platform/major tool | Steering Committee | Technical review + Committee | Executive Leadership |
 | **Integration** | Tool integration | KM Council | Architecture review | Steering Committee |
 | **Emergency Decision** | Critical/urgent issue | Escalate to appropriate level | Fast-track approval | Next level up |
@@ -945,16 +945,17 @@ Clear approval workflows ensure consistent decision-making and appropriate overs
       ↓
 [KM Manager Review] Validates completeness
       │
-      ├─→ [<$10K] ──→ Manager approves ──→ [Implemented]
-      │
+      ├─→ [<$10K*] ──→ Manager approves ──→ [Implemented]
+      │     (*example threshold—adjust to your org)
       ↓
-[KM Council Review] $10K-$50K investment
-      │
+[KM Council Review] $10K-$50K* investment
+      │                (*example thresholds)
       ├─→ [Approved] ──→ [Implemented]
       ├─→ [Rejected] ──→ [Closed]
       │
       ↓
-[Steering Committee Review] >$50K investment
+[Steering Committee Review] >$50K* investment
+                            (*example threshold)
       │
       ├─→ [Approved] ──→ [Implemented]
       └─→ [Rejected] ──→ [Closed]

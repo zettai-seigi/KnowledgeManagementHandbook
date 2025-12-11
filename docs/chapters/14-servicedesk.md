@@ -831,20 +831,23 @@ Annual Savings = (Tickets Deflected × Cost per Ticket) +
                 (Training Time Reduced × Hourly Cost × New Agents)
 ```
 
-**Example Calculation**
+**Example Calculation (Illustrative—Replace with Your Organization's Data)**
+
+> **Note:** These values are illustrative examples. Actual costs and savings vary significantly by organization size, geography, and service desk maturity.
+
 - Tickets Deflected: 3,000/year × $15 = $45,000
 - Handle Time Reduced: 4 min/ticket × $0.50/min × 9,000 tickets = $18,000
 - Escalations Reduced: 120/year × $50 = $6,000
 - Training Time Reduced: 30 days × $200/day × 10 new agents = $60,000
-- **Total Annual Savings: $129,000**
+- **Total Annual Savings (Example): $129,000**
 
-**Investment Costs**
+**Investment Costs (Example)**
 - Knowledge management platform: $30,000/year
 - Staff time (content creation): $40,000/year
 - Training and change management: $10,000/year
-- **Total Annual Cost: $80,000**
+- **Total Annual Cost (Example): $80,000**
 
-**ROI = ($129,000 - $80,000) / $80,000 = 61% annual ROI**
+**Example ROI = ($129,000 - $80,000) / $80,000 = 61% annual ROI**
 
 ### KPI Alignment with Chapter 6 Framework
 
@@ -1194,13 +1197,13 @@ Advanced analytics transform knowledge from reactive to proactive:
 
 3. **How does knowledge-enabled service desk architecture differ from traditional approaches where knowledge is a separate system?** Explain at least three integration points.
 
-4. **Calculate the annual ROI for a service desk knowledge management initiative** with the following parameters:
-   - 2,500 tickets deflected annually at $18 per ticket
+4. **Using the assumed values below, calculate the annual ROI for a service desk knowledge management initiative.** What assumptions would you need to validate for your organization?
+   - 2,500 tickets deflected annually at $18 per ticket (assumed)
    - Average handle time reduced by 3 minutes per ticket
    - 8,000 tickets handled annually
-   - Agent hourly cost: $25/hour
-   - Knowledge platform cost: $35,000/year
-   - Content creation staff cost: $45,000/year
+   - Agent hourly cost: $25/hour (assumed)
+   - Knowledge platform cost: $35,000/year (assumed)
+   - Content creation staff cost: $45,000/year (assumed)
 
 5. **What are the top three barriers to service desk knowledge adoption, and what specific solutions would you implement to address each?** Use examples from Table 14.5.
 

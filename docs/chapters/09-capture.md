@@ -1297,7 +1297,7 @@ Multiple capture paths for different preferences:
 ### Silver (Active Contributor)
 - **Requirements**: 15 articles published, average quality score ≥4.0/5, 500+ article views
 - **Benefits**:
-  - Gift card ($50 value)
+  - Gift card (example: $50 value—adjust to your organization's recognition budget)
   - Featured in knowledge champion spotlight
   - Access to advanced training
   - Invitation to quarterly KM advisory group
@@ -1305,7 +1305,7 @@ Multiple capture paths for different preferences:
 ### Gold (Knowledge Champion)
 - **Requirements**: 30+ articles, quality score ≥4.5/5, 2000+ views, mentors other contributors
 - **Benefits**:
-  - Significant gift card ($150 value)
+  - Significant gift card (example: $150 value—adjust to your organization's recognition budget)
   - Executive recognition event
   - Professional development opportunity
   - Permanent designation as Subject Matter Expert
@@ -1314,7 +1314,7 @@ Multiple capture paths for different preferences:
 ### Platinum (KM Leader)
 - **Requirements**: 50+ articles, quality score ≥4.5/5, 5000+ views, drives KM initiatives
 - **Benefits**:
-  - Major award ($500 value or equivalent)
+  - Major award (example: $500 value or equivalent—adjust to your organization's recognition budget)
   - Executive team presentation
   - External conference attendance
   - Consideration for KM leadership roles

@@ -810,7 +810,7 @@ Budget categories:
 - Recognition and rewards
 - Supplies and materials
 
-Typical annual budget: $5,000-50,000 depending on size and scope
+Typical annual budget: $5,000-50,000 depending on size and scope *(example range—actual budgets vary significantly by organization)*
 
 **Infrastructure Resources**:
 - Collaboration platforms (discussion, content, profiles)

@@ -698,18 +698,19 @@ License valid: [Date] to [Annual renewal date]
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│               KCS VALUE METRICS DASHBOARD                    │
+│   KCS VALUE METRICS DASHBOARD (ILLUSTRATIVE EXAMPLE)        │
 ├─────────────────────────────────────────────────────────────┤
+│  Note: All $ values are illustrative. Use your actual data. │
 │                                                             │
 │  Knowledge Reuse                                            │
 │  ├─ Incidents resolved with knowledge: 1,247/month         │
 │  ├─ Avg. time saved per reuse: 15 minutes                  │
-│  └─ Monthly time savings: 312 hours ($15,600)              │
+│  └─ Monthly time savings: 312 hours ($15,600 assumed)      │
 │                                                             │
 │  Self-Service Improvement                                   │
 │  ├─ Self-service success rate: 45% (was 28%)              │
 │  ├─ Incidents deflected: 623/month                         │
-│  └─ Deflection savings: $9,345/month                       │
+│  └─ Deflection savings: $9,345/month (assumed)             │
 │                                                             │
 │  Resolution Performance                                     │
 │  ├─ Average resolution time: 18 min (was 32 min)          │
@@ -719,22 +720,22 @@ License valid: [Date] to [Annual renewal date]
 │  New Hire Productivity                                      │
 │  ├─ Time to proficiency: 6 weeks (was 14 weeks)           │
 │  ├─ New hires trained: 8/year                              │
-│  └─ Training savings: $64,000/year                         │
+│  └─ Training savings: $64,000/year (assumed)               │
 │                                                             │
-│  Total Annual Value                                         │
+│  Total Annual Value (Example)                               │
 │  ├─ Efficiency gains: $187,200                             │
 │  ├─ Deflection value: $112,140                             │
 │  ├─ Training savings: $64,000                              │
 │  ├─ Quality improvements: $58,000                          │
 │  └─ TOTAL: $421,340/year                                   │
 │                                                             │
-│  Investment                                                 │
+│  Investment (Example)                                       │
 │  ├─ Platform/tools: $45,000/year                           │
 │  ├─ Program staff: $120,000/year                           │
 │  ├─ Training: $15,000/year                                 │
 │  └─ TOTAL: $180,000/year                                   │
 │                                                             │
-│  NET ROI: 134% ($421,340 / $180,000 - 1)                   │
+│  EXAMPLE ROI: 134% ($421,340 / $180,000 - 1)               │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -1284,7 +1285,7 @@ KCS coaches are critical to successful implementation and long-term sustainabili
 | **Best When** | • Unique requirements<br>• Existing dev resources<br>• High customization needs<br>• Long-term commitment | • Standard requirements<br>• Fast implementation needed<br>• Limited IT resources<br>• Proven functionality desired | • Core platform purchased<br>• Custom integrations built<br>• Specialized features added |
 | **Pros** | • Perfect fit for needs<br>• Full control<br>• No licensing fees<br>• Complete IP ownership | • Fast deployment<br>• Proven functionality<br>• Vendor support<br>• Regular updates<br>• Lower risk | • Balance of control and speed<br>• Leverage vendor strengths<br>• Customize differentiators |
 | **Cons** | • High initial cost<br>• Long development time<br>• Maintenance burden<br>• Updates required | • Ongoing license costs<br>• Limited customization<br>• Vendor dependency<br>• Feature constraints | • Integration complexity<br>• Dual maintenance<br>• Potential version conflicts |
-| **Typical Cost** | $250K-$1M+ initial | $50K-$200K/year | $100K-$500K initial + $75K+/year |
+| **Typical Cost (Example Range)** | $250K-$1M+ initial | $50K-$200K/year | $100K-$500K initial + $75K+/year |
 | **Time to Deploy** | 9-18 months | 2-4 months | 4-8 months |
 
 ---
@@ -1349,7 +1350,7 @@ KCS implementation is fundamentally a change management initiative, not a techno
 - First-contact resolution: 73% (52% improvement)
 - Self-service deflection: 45% of inquiries
 - New hire time-to-proficiency: 6 weeks (from 14 weeks)
-- ROI: 187% ($2.1M value / $1.1M investment)
+- ROI: 187% ($2.1M value / $1.1M investment) *(case study results—actual results vary)*
 - Knowledge base: 2,400 active articles, 94% search success rate
 
 **Critical Success Factors:**

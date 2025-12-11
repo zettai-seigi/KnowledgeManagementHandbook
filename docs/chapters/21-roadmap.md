@@ -299,9 +299,11 @@ Quick wins provide:
 | **Timeline** | 6 weeks |
 | **Effort** | 2 knowledge engineers (50% time) + 5 SMEs (25% time) |
 | **Metrics** | • 40% reduction in average handle time (from 10 to 6 minutes)<br>• 25% improvement in first contact resolution (from 60% to 75%)<br>• 3 hours saved per agent per week<br>• 95% article usefulness rating |
-| **Investment** | $25,000 (labor + tools) |
-| **Annual Value** | $180,000 (time savings) |
-| **ROI** | 620% in first year |
+| **Investment (example)** | $25,000 (labor + tools) |
+| **Annual Value (example)** | $180,000 (time savings) |
+| **ROI (example)** | 620% in first year |
+
+> **Note:** All investment and value figures in quick wins are illustrative examples. Use your organization's actual costs and metrics.
 
 #### Quick Win 2: Onboarding Knowledge Hub
 
@@ -312,9 +314,9 @@ Quick wins provide:
 | **Timeline** | 8 weeks |
 | **Effort** | 1 knowledge manager (full-time) + HR team (coordination) |
 | **Metrics** | • 50% reduction in time-to-productivity (from 90 to 45 days)<br>• 90% new hire satisfaction score<br>• 15 hours saved per new hire<br>• 30% reduction in manager onboarding time |
-| **Investment** | $35,000 |
-| **Annual Value** | $145,000 (for 50 new hires) |
-| **ROI** | 314% in first year |
+| **Investment (example)** | $35,000 |
+| **Annual Value (example)** | $145,000 (for 50 new hires) |
+| **ROI (example)** | 314% in first year |
 
 #### Quick Win 3: Expert Finder System
 
@@ -325,9 +327,9 @@ Quick wins provide:
 | **Timeline** | 4 weeks |
 | **Effort** | 1 developer (50% time) + HR data integration |
 | **Metrics** | • 60% faster expert location (from 5 hours to 2 hours average)<br>• 80% user satisfaction<br>• 2,500 searches per month<br>• 90% find-rate |
-| **Investment** | $15,000 |
-| **Annual Value** | $95,000 (time savings) |
-| **ROI** | 533% in first year |
+| **Investment (example)** | $15,000 |
+| **Annual Value (example)** | $95,000 (time savings) |
+| **ROI (example)** | 533% in first year |
 
 ### Quick Win Execution Framework
 
@@ -408,9 +410,11 @@ Quick wins provide:
 
 ### Budget Planning
 
-**Year 1 Budget (Foundation + Build Phases)**
+**Year 1 Budget (Foundation + Build Phases) - Example Ranges**
 
-| Category | Description | Cost Range |
+> **Note:** Budget ranges below are illustrative for mid-to-large organizations. Actual costs vary significantly based on organization size, scope, and geography. Use these as starting points for your planning.
+
+| Category | Description | Cost Range (Example) |
 |----------|-------------|------------|
 | **Personnel** | Core team salaries and benefits | $750,000 - $1,200,000 |
 | **Technology** | Platform licenses, tools, infrastructure | $100,000 - $300,000 |
@@ -421,9 +425,9 @@ Quick wins provide:
 | **Contingency** | 10-15% buffer | $115,000 - $235,000 |
 | **Total Year 1** | | **$1,315,000 - $2,585,000** |
 
-**Years 2-3 Budget (Scale + Optimize Phases)**
+**Years 2-3 Budget (Scale + Optimize Phases) - Example Ranges**
 
-| Category | Annual Cost (Years 2-3) |
+| Category | Annual Cost (Example) |
 |----------|------------------------|
 | **Personnel** | $800,000 - $1,300,000 |
 | **Technology** | $150,000 - $350,000 |
@@ -432,7 +436,7 @@ Quick wins provide:
 | **Continuous Improvement** | $75,000 - $150,000 |
 | **Total Years 2-3** | **$1,175,000 - $2,150,000/year** |
 
-**3-Year Total Investment:** $3,665,000 - $6,885,000
+**3-Year Total Investment (Example):** $3,665,000 - $6,885,000
 
 **Expected 3-Year ROI:** 250-400% (see Chapter 4 for ROI calculation methodology)
 

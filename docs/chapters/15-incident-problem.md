@@ -285,7 +285,7 @@ Implement three permanent solutions:
 - Average resolution time with workaround: 22 minutes
 - Average resolution time without workaround: 145 minutes
 - Last occurrence: 2024-12-05
-- Cost avoidance: ~$18,400 (based on reduced downtime)
+- Cost avoidance (estimated): ~$18,400 (based on reduced downtime—actual values vary by organization)
 
 ## Review Information
 - Last reviewed: 2024-12-01
@@ -769,11 +769,13 @@ size limits were increased, creating a latent capacity deficit.
   * Internal approvals blocked
   * Time-sensitive notifications missed
 
-### Financial Impact
-- **Lost productivity**: $24,800 (1,247 users × 2 hours × $10/hour avg)
-- **SLA penalty**: $5,000 (contractual penalty for breach)
+### Financial Impact (Illustrative Example)
+> **Note:** Financial values below are illustrative. Replace with your organization's actual cost data.
+
+- **Lost productivity**: $24,800 (1,247 users × 2 hours × $10/hour avg—assumed rate)
+- **SLA penalty**: $5,000 (contractual penalty for breach—varies by contract)
 - **Emergency hardware cost**: $3,200 (memory procurement)
-- **Total financial impact**: $33,000
+- **Total financial impact (example)**: $33,000
 
 ## Solutions Implemented
 ### Immediate Actions
@@ -1416,11 +1418,11 @@ AI can analyze patterns to predict and prevent incidents before they occur.
 │  ├─ Articles rated ≥4.0: 87%                              │
 │  └─ Target: ≥4.0/5.0 (ACHIEVED)                           │
 │                                                             │
-│  Cost Impact                                                │
+│  Cost Impact (Illustrative Example)                         │
 │  ├─ Reduced incident handling cost: $125,000/year         │
 │  ├─ Faster problem resolution value: $89,000/year         │
 │  ├─ Prevented outages: $200,000/year                      │
-│  └─ Total value: $414,000/year                            │
+│  └─ Total value (example): $414,000/year                  │
 └─────────────────────────────────────────────────────────────┘
 ```
 

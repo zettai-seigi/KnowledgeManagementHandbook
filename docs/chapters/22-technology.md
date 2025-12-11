@@ -469,7 +469,7 @@ The build vs. buy decision is critical and should be made systematically using m
 | Factor | Build Custom Solution | Buy Commercial Platform | Analysis |
 |--------|----------------------|------------------------|----------|
 | **Time to Value** | • 12-24 months development<br>• Delayed benefits<br>• Incremental delivery | • 3-6 months implementation<br>• Immediate benefits<br>• Proven ROI timeline | **Winner: Buy** - Faster time to value enables earlier benefits realization |
-| **Total Cost (3-year)** | • $500K-$2M+<br>• High development cost<br>• Ongoing maintenance<br>• Staff allocation | • $150K-$500K<br>• Predictable licensing<br>• Vendor maintenance<br>• Lower resource needs | **Winner: Buy** - Significantly lower TCO for most organizations |
+| **Total Cost (3-year) - Example Ranges** | • $500K-$2M+<br>• High development cost<br>• Ongoing maintenance<br>• Staff allocation | • $150K-$500K<br>• Predictable licensing<br>• Vendor maintenance<br>• Lower resource needs | **Winner: Buy** - Significantly lower TCO for most organizations |
 | **Customization** | • Unlimited flexibility<br>• Exact requirements match<br>• Full control | • Configuration-based<br>• 80-90% requirements fit<br>• Some compromises | **Winner: Build** (if truly unique needs) - But most needs are standard |
 | **Maintenance & Support** | • Internal team required<br>• Ongoing development<br>• Bug fixes<br>• Security patches | • Vendor-managed<br>• Automatic updates<br>• Professional support<br>• SLA guarantees | **Winner: Buy** - Vendor expertise and economies of scale |
 | **Innovation** | • Manual development<br>• Depends on team capacity<br>• Falls behind market | • Automatic innovation<br>• Regular feature releases<br>• Market-driven evolution | **Winner: Buy** - Vendors invest heavily in R&D |
@@ -715,7 +715,7 @@ This comprehensive comparison helps evaluate leading platforms against key crite
 | Scalability | Excellent | Excellent | Excellent | Very Good | Good | Very Good |
 | Performance | Excellent | Very Good | Good | Excellent | Very Good | Very Good |
 | Security | Excellent | Excellent | Excellent | Very Good | Good | Very Good |
-| **Pricing (indicative)** | | | | | | |
+| **Pricing (indicative examples—verify current rates)** | | | | | | |
 | Entry Point | $100/user/year | $5/user/month | Included in M365 | $15/user/month | $8/user/month | $25/user/month |
 | Enterprise | Custom | $11/user/month | Varies | $30/user/month | $15/user/month | Custom |
 | Implementation | $100K-500K+ | $25K-100K | $50K-200K | $10K-50K | $5K-25K | $50K-150K |
@@ -876,9 +876,9 @@ Implement single "knowledge hub" platform and integrate via API/embedding:
 
 **Key Principle:** Don't create yet another repository that users ignore. Either consolidate to fewer platforms or implement seamless search across existing systems.
 
-### Question 5: TCO Analysis
+### Question 5: TCO Analysis (Example)
 
-Your organization is comparing two platforms:
+Your organization is comparing two platforms (using illustrative example values—substitute your actual quotes):
 - **Platform A:** $50/user/year subscription, $200K implementation, $100K/year operational costs
 - **Platform B:** $25/user/year subscription, $400K implementation, $75K/year operational costs
 - User count: 2,000 employees
@@ -887,7 +887,7 @@ Which platform has lower TCO over 3 years? What other factors should influence t
 
 **Sample Answer:**
 
-**TCO Calculation:**
+**TCO Calculation (Example):**
 
 Platform A (3 years):
 - Year 0: $200K (implementation) + $100K (subscription for 2,000 users) + $100K (operations) = $400K
@@ -899,7 +899,7 @@ Platform B (3 years):
 - Year 1-3: ($50K subscription + $75K operations) × 3 = $375K
 - **Total 3-year TCO: $900K**
 
-**Platform B has 10% lower TCO ($100K savings over 3 years)**
+**In this example, Platform B has 10% lower TCO ($100K savings over 3 years)**
 
 **However, consider beyond pure cost:**
 

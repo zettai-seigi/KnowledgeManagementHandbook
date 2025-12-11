@@ -187,18 +187,20 @@ While starting small, plan for:
 - **Change Management:** Approach scalable across organization
 - **Funding Model:** Multi-year investment plan
 
-#### Case Example: Financial Services Company
+#### Case Example: Financial Services Company (Illustrative)
+
+> **Note:** Investment and savings figures are illustrative examples. Actual results vary significantly by organization.
 
 - **Pilot (Q1-Q2):** Contact center knowledge base (150 agents)
   - Results: 25% reduction in handle time, 85% user satisfaction
-  - Investment: $150K
+  - Investment: $150K (example)
 - **Expansion (Q3-Q4):** Branch network and online banking support (800 users)
   - Results: 30% improvement in first contact resolution
-  - Investment: $300K
+  - Investment: $300K (example)
 - **Enterprise (Year 2):** All customer-facing and internal support (5,000 users)
-  - Results: $4.2M annual savings, 92% user adoption
-  - Total Investment: $1.2M
-  - ROI: 350% over 3 years
+  - Results: $4.2M annual savings, 92% user adoption (case study)
+  - Total Investment: $1.2M (example)
+  - ROI: 350% over 3 years (case study result)
 
 ---
 
@@ -413,7 +415,7 @@ Before technology deployment, ensure:
 
 **Recognition Program:**
 - Real-time notification: "Your solution was used 10 times today"
-- Monthly "Knowledge Champion" award ($500 + plaque + CEO email)
+- Monthly "Knowledge Champion" award (example: $500 + plaque + CEO email—adjust to your budget)
 - Quarterly team awards for most impactful contributions
 - Annual KM awards ceremony with executive presence
 - Contributor profiles featured on digital screens
@@ -1790,7 +1792,9 @@ Content Quality
 
 **Ongoing Effort Required:**
 
-| Organization Size | Recommended KM Team | Budget (Ongoing) |
+> **Note:** Budget ranges are illustrative benchmarks. Actual budgets vary based on industry, KM scope, and organizational context.
+
+| Organization Size | Recommended KM Team | Budget (Ongoing - Example) |
 |-------------------|---------------------|------------------|
 | **<1,000 employees** | 1-2 FTE | $150-300K/year |
 | **1,000-5,000** | 3-5 FTE | $300-600K/year |
@@ -1925,7 +1929,9 @@ Failing to quantify knowledge management benefits or demonstrate ROI, leading to
 
 **3. Cost Savings**
 
-| Category | Calculation | Example |
+> **Note:** All dollar values below are illustrative examples using assumed hourly rates. Replace with your organization's actual loaded labor costs.
+
+| Category | Calculation | Example (Illustrative) |
 |----------|-------------|---------|
 | **Support Efficiency** | (Time saved per case) × (cases per year) × (loaded hourly rate) | 10 min × 50,000 cases × $60/hr = $500K |
 | **Reduced Training** | (Training time reduction) × (new hires per year) × (loaded rate) | 40 hrs × 200 people × $60/hr = $480K |
@@ -1934,7 +1940,7 @@ Failing to quantify knowledge management benefits or demonstrate ROI, leading to
 
 **4. Revenue Impact**
 
-| Opportunity | Measurement | Example |
+| Opportunity | Measurement | Example (Illustrative) |
 |-------------|-------------|---------|
 | **Faster Sales** | Sales cycle reduction × average deal size | 15 days faster × $50K = impact on quarterly revenue |
 | **Win Rate** | Improvement in close rate × pipeline value | 5% × $10M pipeline = $500K additional revenue |
@@ -1948,7 +1954,7 @@ Failing to quantify knowledge management benefits or demonstrate ROI, leading to
 ```
 ROI = (Total Benefits - Total Costs) / Total Costs × 100%
 
-Example:
+Example (illustrative—use your actual values):
 Benefits = $2.1M/year
 Costs = $1.2M (Year 1 implementation)
 Ongoing = $300K/year
@@ -1958,11 +1964,13 @@ Year 2 ROI = ($2.1M - $300K) / $300K = 600%
 3-Year ROI = ($6.3M - $1.8M) / $1.8M = 250%
 ```
 
-**Comprehensive ROI Example:**
+**Comprehensive ROI Example (Illustrative):**
+
+> **Important:** This is a hypothetical example to demonstrate ROI calculation methodology. All dollar values are assumptions. Use your organization's actual costs and metrics.
 
 **Company:** 5,000 employees, IT service organization
 
-**Benefits (Annual):**
+**Benefits (Annual - Example Values):**
 - Support efficiency: 30% time reduction on 80,000 incidents
   - 80,000 × 30% × 0.25 hours × $60/hr = $360,000
 - Reduced escalations: 20% of 15,000 escalations avoided
@@ -1971,9 +1979,9 @@ Year 2 ROI = ($2.1M - $300K) / $300K = 600%
   - 400 × 40 hours × $60/hr = $960,000
 - Reduced rework: 25% of 5,000 rework hours
   - 5,000 × 25% × $75/hr = $93,750
-- **Total Annual Benefits: $1,923,750**
+- **Total Annual Benefits (Example): $1,923,750**
 
-**Costs:**
+**Costs (Example Values):**
 - Year 1 (Implementation)
   - Technology: $400,000
   - Implementation services: $300,000
@@ -1986,11 +1994,13 @@ Year 2 ROI = ($2.1M - $300K) / $300K = 600%
   - Continuous improvement: $80,000
   - **Total Annual Ongoing: $650,000**
 
-**ROI:**
+**ROI (Based on Example Values):**
 - Year 1: ($1.92M - $1.15M) / $1.15M = 67%
 - Year 2: ($1.92M - $650K) / $650K = 196%
 - Year 3: ($1.92M - $650K) / $650K = 196%
 - **3-Year ROI: ($5.77M - $2.45M) / $2.45M = 135%**
+
+*Actual ROI varies significantly based on organization-specific factors.*
 
 #### Value Demonstration Best Practices
 

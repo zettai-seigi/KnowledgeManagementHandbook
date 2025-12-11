@@ -570,7 +570,7 @@ Close Known Error (if all instances resolved)
 | **SLA Commitments** | Performance targets | "Email delivery <5 min, support response <1 hour" |
 | **Request Process** | How to request | "Self-service portal or call service desk" |
 | **Fulfillment Time** | How long to provision | "New account: 4 hours, additional storage: 1 hour" |
-| **Pricing** | Cost model (if applicable) | "$15/user/month, included in base IT allocation" |
+| **Pricing** | Cost model (if applicable) | "Example: $15/user/month, included in base IT allocation" |
 | **Dependencies** | Required components | "Active Directory, Internet connectivity" |
 | **Support Contacts** | Where to get help | "Service Desk: x1234, Email: support@company.com" |
 | **Related Services** | Connected offerings | "Cloud Storage, Collaboration Service" |

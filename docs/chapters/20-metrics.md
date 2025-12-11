@@ -476,7 +476,9 @@ KM ROI = (Total Benefits - Total Costs) / Total Costs × 100
 
 **Benefits Calculation:**
 
-| Benefit Category | Calculation | Example |
+> **Note:** Example values below are illustrative. Replace with your organization's actual rates and volumes.
+
+| Benefit Category | Calculation | Example (Illustrative) |
 |-----------------|-------------|---------|
 | **Time Savings** | (Hours saved × Hourly rate) | 1000 hrs × $50 = $50,000 |
 | **Avoided Contacts** | (Deflected tickets × Cost per ticket) | 500 × $25 = $12,500 |
@@ -540,11 +542,11 @@ AHT Reduction = ((Baseline AHT - Current AHT) / Baseline AHT) × 100
 
 **Target:** ≥30% AHT reduction with knowledge use
 
-**Annual Value Calculation:**
+**Annual Value Calculation (Illustrative Example):**
 ```
 Annual Savings = (AHT Reduction × Annual Incident Volume × Cost per Minute)
 
-Example:
+Example (use your actual values):
 6 min reduction × 50,000 incidents × $1/min = $300,000/year
 ```
 
@@ -582,11 +584,11 @@ Example:
 
 **Target:** ≥30% reduction in training time
 
-**Value Calculation:**
+**Value Calculation (Illustrative Example):**
 ```
 Annual Training Savings = (Training Time Reduction × New Hires × Hourly Rate)
 
-Example:
+Example (use your actual values):
 3 weeks × 20 new hires × 40 hrs/week × $30/hr = $72,000/year
 ```
 
@@ -1607,7 +1609,7 @@ OVERALL STATUS: GREEN (Score: 82/100, +5 from Q3)
 KEY ACHIEVEMENTS:
 ✓ Exceeded FCR target (78% vs. 75% target)
 ✓ Launched new self-service portal (45% adoption in 60 days)
-✓ Achieved 325% ROI ($1.2M benefits vs. $370K costs)
+✓ Achieved 325% ROI ($1.2M benefits vs. $370K costs) [illustrative]
 
 TOP CONCERNS:
 ⚠ Contribution rate declining in Engineering (65% vs. 80% target)
@@ -1615,7 +1617,7 @@ TOP CONCERNS:
 ⚠ Search success rate plateaued at 82% (target: 85%)
 
 DECISIONS NEEDED:
-→ Approve investment in AI-powered search ($125K)
+→ Approve investment in AI-powered search ($125K example)
 → Mandate monthly contribution targets for technical teams
 → Endorse revised content review policy
 
@@ -1910,18 +1912,20 @@ Use a scoring model to prioritize improvement initiatives:
 | Search success rate | 78% | 88% | +10% | Yes (target: 85%) |
 | Time-to-find | 3.2 minutes | 2.1 minutes | -34% | Yes (target: <2.5 min) |
 | User satisfaction | 3.9/5.0 | 4.4/5.0 | +0.5 | Yes (target: >4.0) |
-| Implementation cost | - | $35,000 | - | Within budget |
+| Implementation cost (example) | - | $35,000 | - | Within budget |
 | Time to implement | - | 45 days | - | On schedule |
 
-**ROI of Improvement Initiative:**
+**ROI of Improvement Initiative (Illustrative Example):**
+
+> **Note:** Replace all values with your organization's actual data.
 
 ```
-Annual Benefit Calculation:
+Annual Benefit Calculation (example values):
 • Time savings: 1.1 min/search × 50,000 searches/year × $1/min = $55,000
 • Improved FCR: 500 fewer repeat contacts × $25/contact = $12,500
 Total Annual Benefits = $67,500
 
-Implementation Cost:
+Implementation Cost (example values):
 • Technology: $20,000
 • Labor: $15,000
 Total Cost = $35,000
@@ -2053,7 +2057,7 @@ Organizations evolve through stages of analytics sophistication:
 
 **Prioritization:**
 
-| Gap Topic | Search Volume | Incident Volume | Avg. Resolution Time | Annual Cost | Priority |
+| Gap Topic | Search Volume | Incident Volume | Avg. Resolution Time | Annual Cost (Example) | Priority |
 |-----------|--------------|----------------|---------------------|-------------|----------|
 | Cloud migration errors | 450 searches | 120 incidents | 45 min | $180,000 | Critical |
 | New vendor API | 280 searches | 85 incidents | 30 min | $102,000 | High |

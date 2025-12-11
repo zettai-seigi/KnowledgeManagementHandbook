@@ -180,9 +180,11 @@ Your organization is at Level 1 if **most** of these statements are true:
 
 #### Investment Required
 
+> **Note:** Investment ranges are illustrative benchmarks. Actual investments vary based on organization size, industry, and scope.
+
 | Resource | Level 1 → Level 2 | Notes |
 |----------|------------------|-------|
-| **Budget** | $50K - $200K | Basic platform, consulting, content creation |
+| **Budget (example range)** | $50K - $200K | Basic platform, consulting, content creation |
 | **Headcount** | 1-2 FTE | KM lead, coordinator |
 | **Executive Time** | 5-10 hours/month | Sponsorship, steering |
 | **Pilot Team Time** | 10-20% capacity | Content creation, adoption |
@@ -1028,9 +1030,11 @@ Assessment → Gap Analysis → Prioritization → Sequencing → Resource Plann
 
 ### Improvement Roadmap Template
 
+> **Note:** Investment ranges are illustrative. Actual costs vary significantly based on organization size, scope, and geography.
+
 #### Roadmap: Level 1 (Initial) → Level 2 (Developing)
 
-**Timeline:** 6-12 months | **Investment:** $50K-$200K | **Team:** 1-2 FTE
+**Timeline:** 6-12 months | **Investment (example):** $50K-$200K | **Team:** 1-2 FTE
 
 | Quarter | Focus Area | Key Initiatives | Deliverables | Success Criteria |
 |---------|------------|-----------------|--------------|------------------|
@@ -1041,7 +1045,7 @@ Assessment → Gap Analysis → Prioritization → Sequencing → Resource Plann
 
 #### Roadmap: Level 2 (Developing) → Level 3 (Defined)
 
-**Timeline:** 12-18 months | **Investment:** $200K-$500K | **Team:** 3-5 FTE
+**Timeline:** 12-18 months | **Investment (example):** $200K-$500K | **Team:** 3-5 FTE
 
 | Quarter | Focus Area | Key Initiatives | Deliverables | Success Criteria |
 |---------|------------|-----------------|--------------|------------------|
@@ -1051,7 +1055,7 @@ Assessment → Gap Analysis → Prioritization → Sequencing → Resource Plann
 
 #### Roadmap: Level 3 (Defined) → Level 4 (Managed)
 
-**Timeline:** 12-18 months | **Investment:** $300K-$750K | **Team:** 5-8 FTE
+**Timeline:** 12-18 months | **Investment (example):** $300K-$750K | **Team:** 5-8 FTE
 
 | Quarter | Focus Area | Key Initiatives | Deliverables | Success Criteria |
 |---------|------------|-----------------|--------------|------------------|
@@ -1060,7 +1064,7 @@ Assessment → Gap Analysis → Prioritization → Sequencing → Resource Plann
 
 #### Roadmap: Level 4 (Managed) → Level 5 (Optimizing)
 
-**Timeline:** 12-24 months | **Investment:** $500K-$1M+ | **Team:** 8-12 FTE
+**Timeline:** 12-24 months | **Investment (example):** $500K-$1M+ | **Team:** 8-12 FTE
 
 | Quarter | Focus Area | Key Initiatives | Deliverables | Success Criteria |
 |---------|------------|-----------------|--------------|------------------|
@@ -1134,11 +1138,13 @@ Benchmarking compares your KM maturity and performance against external standard
 
 #### Investment Benchmarks
 
+> **Note:** Investment ranges are illustrative industry benchmarks. Actual investment varies significantly by organization size, industry, and geographic location.
+
 | Investment Area | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 |
 |----------------|---------|---------|---------|---------|---------|
 | **Annual Budget (% of IT)** | <0.5% | 0.5-1% | 1-2% | 2-3% | 3-5% |
 | **KM Team Size (per 1000 employees)** | 0-0.5 | 0.5-1 | 1-2 | 2-3 | 3-5 |
-| **Technology Investment** | <$25K | $25-100K | $100-300K | $300-500K | $500K+ |
+| **Technology Investment (example)** | <$25K | $25-100K | $100-300K | $300-500K | $500K+ |
 | **Training per User** | 0 hours | 2-4 hours | 4-8 hours | 8-12 hours | 12+ hours |
 
 ### Industry Comparisons

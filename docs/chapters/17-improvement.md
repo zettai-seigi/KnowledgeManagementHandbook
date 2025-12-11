@@ -243,7 +243,7 @@ Knowledge management and continual improvement form a powerful symbiotic relatio
 │  │  Success Rate: 47% (target: 50%)                   │  │
 │  │  Avg. Time to Resolution: 4.2 minutes              │  │
 │  │  Tickets Deflected: 1,847/month                    │  │
-│  │  Deflection Value: $27,705/month                   │  │
+│  │  Deflection Value: $27,705/month (assumed)         │  │
 │  └─────────────────────────────────────────────────────┘  │
 │                                                             │
 │  Agent Productivity                                         │
@@ -660,10 +660,11 @@ Knowledge management and continual improvement form a powerful symbiotic relatio
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│          KNOWLEDGE MANAGEMENT BALANCED SCORECARD            │
+│    KNOWLEDGE MANAGEMENT BALANCED SCORECARD (EXAMPLE)        │
 ├─────────────────────────────────────────────────────────────┤
+│  Note: All financial values are illustrative examples.      │
 │                                                             │
-│  FINANCIAL PERSPECTIVE                                      │
+│  FINANCIAL PERSPECTIVE (Example Values)                     │
 │  ├─ Cost Avoidance: $487,000/year                          │
 │  ├─ Efficiency Gains: $234,000/year                        │
 │  ├─ Investment: $185,000/year                              │
@@ -705,7 +706,9 @@ Knowledge management and continual improvement form a powerful symbiotic relatio
 ```markdown
 ## Example: Executive Summary Template
 
-### Knowledge Management Impact: Q4 2025
+> **Note:** This is an illustrative example with hypothetical values. Replace all $ figures with your organization's actual data.
+
+### Knowledge Management Impact: Q4 2025 (Example)
 
 **Executive Summary**
 In Q4, our knowledge management program delivered $142,000 in measurable
@@ -716,7 +719,7 @@ without IT assistance.
 
 **Key Achievements**
 • Reduced incident resolution time by 9 minutes on average (32% improvement)
-• Deflected 1,847 tickets through self-service, saving $27,705
+• Deflected 1,847 tickets through self-service, saving $27,705 (assumed rate)
 • Launched AI-powered article suggestions, reducing agent search time by 35%
 • Achieved 92% KCS contributor licensing across support teams
 
@@ -726,7 +729,7 @@ Action: Created comprehensive self-service password reset KB article with
 video tutorial and enhanced self-service portal.
 Result: 63% reduction in password reset tickets, 2-minute average self-service
 resolution vs. 8-minute agent-assisted resolution.
-Value: $4,200/month savings, improved user experience.
+Value: $4,200/month savings (example), improved user experience.
 
 **Looking Ahead: Q1 2026**
 • Expand chatbot capabilities to top 10 incident categories
@@ -1557,8 +1560,8 @@ Formal recognition reinforces desired knowledge behaviors and motivates particip
 |-------------------|----------|-----------|--------|------------|
 | **Peer Recognition** | Colleague nomination for helpful knowledge | Ongoing | Digital badge, thank you message | Team level |
 | **Monthly Contributor** | Highest monthly contributions (quality + quantity) | Monthly | Certificate, feature in newsletter | Department level |
-| **Quarterly Excellence** | Outstanding knowledge quality or innovation | Quarterly | Trophy, gift card ($100), executive recognition | Organization level |
-| **Annual Champion** | Year-long exceptional contribution and leadership | Annually | Significant award ($500+ value), conference attendance, trophy | Organization-wide event |
+| **Quarterly Excellence** | Outstanding knowledge quality or innovation | Quarterly | Trophy, gift card (example: $100), executive recognition | Organization level |
+| **Annual Champion** | Year-long exceptional contribution and leadership | Annually | Significant award (example: $500+ value), conference attendance, trophy | Organization-wide event |
 | **Lifetime Achievement** | Multi-year sustained excellence | As earned | Prestigious award, permanent recognition | Hall of fame |
 
 **Recognition Program Structure**
@@ -1574,18 +1577,18 @@ Formal recognition reinforces desired knowledge behaviors and motivates particip
 │                   ╱ ╲        Lifetime Achievement          │
 │                  ╱   ╲       (5+ years excellence)         │
 │                 ╱     ╲      • Hall of Fame                │
-│                ╱───────╲     • $1000 value                 │
+│                ╱───────╲     • Example: $1000 value        │
 │               ╱         ╲    • 1-2 per year                │
 │              ╱───────────╲                                  │
 │             ╱             ╲  Annual Champion               │
 │            ╱               ╲ (12 months contribution)      │
 │           ╱                 ╲ • Conference attendance       │
-│          ╱─────────────────╲ • $500 value                  │
+│          ╱─────────────────╲ • Example: $500 value         │
 │         ╱                   ╲ • 5-10 per year              │
 │        ╱─────────────────────╲                              │
 │       ╱                       ╲ Quarterly Excellence       │
 │      ╱                         ╲ (3 months outstanding)    │
-│     ╱───────────────────────────╲ • Gift card $100         │
+│     ╱───────────────────────────╲ • Example: gift card $100 │
 │    ╱                             ╲ • 10-20 per quarter     │
 │   ╱─────────────────────────────╲                          │
 │  ╱                               ╲ Monthly Contributors    │

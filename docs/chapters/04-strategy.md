@@ -140,7 +140,9 @@ Knowledge management delivers returns through efficiency gains, quality improvem
 
 **Hard Benefits (Quantifiable):**
 
-| Benefit Category | Calculation Approach | Example |
+> **Note:** The following examples use illustrative values. Replace with your organization's actual data for business case development.
+
+| Benefit Category | Calculation Approach | Example (Illustrative) |
 |------------------|---------------------|---------|
 | **Time Savings** | (Hours saved per person) × (Number of people) × (Hourly cost) | 30 min/day × 200 agents × $50/hr = $500K/year |
 | **Reduced Rework** | (Incidents avoided) × (Average handling cost) | 5,000 incidents × $75 = $375K/year |
@@ -148,7 +150,7 @@ Knowledge management delivers returns through efficiency gains, quality improvem
 | **Call Deflection** | (Calls deflected) × (Average call cost) | 10,000 calls × $25 = $250K/year |
 | **Reduced Escalations** | (Escalations avoided) × (Escalation cost) | 2,000 × $150 = $300K/year |
 
-**Total Annual Hard Benefits:** $1,725,000
+**Total Annual Hard Benefits (Example):** $1,725,000
 
 **Soft Benefits (Qualitative but Valuable):**
 
@@ -160,7 +162,9 @@ Knowledge management delivers returns through efficiency gains, quality improvem
 - Preserved institutional knowledge
 - Compliance and risk reduction
 
-**Investment Costs:**
+**Investment Costs (Illustrative - Mid-Size Organization):**
+
+> **Note:** Costs vary significantly by organization size, industry, and scope. Use these as starting points for your own estimates.
 
 | Cost Category | Year 1 | Year 2 | Year 3 | Total |
 |---------------|--------|--------|--------|-------|
@@ -171,12 +175,14 @@ Knowledge management delivers returns through efficiency gains, quality improvem
 | **Consulting** | $150,000 | $50,000 | $0 | $200,000 |
 | **Total** | $975,000 | $630,000 | $555,000 | $2,160,000 |
 
-**ROI Calculation:**
+**Example ROI Calculation (Based on Above Assumptions):**
 - 3-Year Benefits: $5,175,000 (assuming 30% realization Year 1, 70% Year 2, 100% Year 3)
 - 3-Year Costs: $2,160,000
 - Net Benefit: $3,015,000
 - ROI: 140%
 - Payback Period: 18 months
+
+*Actual results depend on implementation quality, organizational readiness, and sustained commitment.*
 
 ### Stakeholder Value Propositions
 
@@ -854,7 +860,7 @@ Chapter 18 (Governance Framework) provides additional depth on governance struct
 
 1. **Strategic Alignment:** How does linking KM strategy to organizational value streams demonstrate business value and secure executive sponsorship? What techniques can you use to identify knowledge bottlenecks in critical processes?
 
-2. **Business Case Development:** Calculate the 3-year ROI for a KM initiative with the following parameters: Year 1 costs $500K (30% benefit realization), Year 2 costs $300K (70% realization), Year 3 costs $250K (100% realization), with annual hard benefits of $900K. What is the payback period?
+2. **Business Case Development:** Using assumed values, calculate the 3-year ROI for a KM initiative with the following parameters: Year 1 costs $500K (30% benefit realization), Year 2 costs $300K (70% realization), Year 3 costs $250K (100% realization), with annual hard benefits of $900K. What is the payback period? What additional assumptions would need validation?
 
 3. **Critical Success Factors:** Select three of the eight CSFs and explain how they are interconnected. How would weakness in one CSF impact the others? What should be the priority sequence for addressing CSF gaps?
 
