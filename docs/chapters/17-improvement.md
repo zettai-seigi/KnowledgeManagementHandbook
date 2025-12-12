@@ -1715,8 +1715,6 @@ Continuous measurement and improvement—the eighth Critical Success Factor—en
 
 ## 17.15 Review Questions
 
-Test your understanding of knowledge-driven continuous improvement concepts:
-
 1. **Analytics and Insights**
    - How do the four types of analytics (descriptive, diagnostic, predictive, prescriptive) build upon each other to drive improvement?
    - What are three examples of implicit feedback signals, and what actions should each trigger?

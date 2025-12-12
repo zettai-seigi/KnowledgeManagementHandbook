@@ -1281,59 +1281,38 @@ Chapter 18's governance framework directly supports **CSF #3: Clear Governance a
 
 ## Review Questions
 
-Test your understanding of Knowledge Governance Framework concepts:
-
 1. **Governance Structure Design**
-   - Question: Your organization has 2,500 employees across 5 business units. Design an appropriate governance structure including all three tiers. For each tier, specify: composition, meeting frequency, key responsibilities, and decision authority. Justify why your design is appropriate for this organization size.
-
-   - Key Points to Address:
-     - Steering Committee with executive representation
-     - KM Council with cross-functional membership
-     - Domain Working Groups aligned with business needs
-     - Appropriate meeting cadence balancing oversight with efficiency
-     - Clear escalation paths between tiers
+   - How would you design a three-tier governance structure for an organization with 2,500 employees across 5 business units?
+   - What composition, meeting frequency, and key responsibilities would you specify for each tier?
+   - What decision authority should each governance tier have, and how would you justify this for the organization size?
+   - How would you establish clear escalation paths between the three governance tiers?
 
 2. **Decision Rights and RACI**
-   - Question: A conflict has arisen regarding who should approve a major change to the taxonomy structure that will affect three knowledge domains. The Knowledge Manager, two Knowledge Owners, and the KM Council all believe they should make this decision. Using the decision framework from this chapter, determine who has the authority to make this decision and explain your reasoning. Create a RACI matrix for this specific decision.
+   - When a major taxonomy change affects three knowledge domains, who has the authority to approve it?
+   - If the Knowledge Manager, two Knowledge Owners, and the KM Council all claim decision authority, how would you resolve this conflict?
+   - What does the decision framework indicate about multi-domain decisions?
+   - How would you create a RACI matrix for this specific decision, and what roles would each stakeholder have?
 
-   - Key Points to Address:
-     - Multi-domain impact indicates Council-level decision
-     - Knowledge Owners should be consulted
-     - Knowledge Manager facilitates but doesn't unilaterally decide
-     - RACI: Council = A/R, Owners = C, Manager = R, Contributors = I
-
-3. **Governance Processes**
-   - Question: Your organization's content approval workflow currently takes an average of 14 business days, and the Steering Committee has mandated reducing this to 6 business days without compromising quality. Using the approval workflow concepts from this chapter, identify potential bottlenecks and propose specific process improvements. Include revised SLAs for each approval stage.
-
-   - Key Points to Address:
-     - Parallel vs. sequential reviews
-     - Reviewer availability and workload
-     - Automated quality checks
-     - Defined approval SLAs for each stage
-     - Escalation for delayed approvals
-     - Metrics to monitor improvement
+3. **Governance Processes and Approval Workflows**
+   - If content approval takes 14 business days but must be reduced to 6 days without compromising quality, what are the likely bottlenecks?
+   - How would you restructure the approval workflow using parallel versus sequential reviews?
+   - What revised SLAs would you establish for each approval stage to meet the 6-day target?
+   - How would you implement escalation mechanisms for delayed approvals?
+   - What metrics would you track to monitor the workflow improvement?
 
 4. **Governance Metrics and Maturity**
-   - Question: Your KM governance maturity assessment shows Level 2 (Developing) across all dimensions, but the organization needs to reach Level 4 (Managed) within 18 months. Develop a prioritized improvement roadmap that addresses: (1) which dimensions to improve first and why, (2) specific initiatives for each dimension, (3) metrics to track progress, and (4) resource requirements.
-
-   - Key Points to Address:
-     - Foundation dimensions first (structure, roles, policies)
-     - Sequential improvement approach
-     - Quick wins vs. long-term initiatives
-     - Resource allocation and timeline
-     - Specific metrics for each dimension
-     - Risk mitigation for ambitious timeline
+   - If your governance maturity is at Level 2 (Developing) across all dimensions, which dimensions should you improve first to reach Level 4 (Managed) within 18 months?
+   - What specific initiatives would you implement for each maturity dimension?
+   - How would you balance quick wins versus long-term structural improvements?
+   - What metrics would you track to demonstrate maturity progression?
+   - What resource requirements and timeline would you propose, and how would you mitigate the risks of this ambitious schedule?
 
 5. **Exception Handling and Dispute Resolution**
-   - Question: A business-critical project requires publishing technical documentation that doesn't meet the organization's quality standards due to extreme time constraints. The project manager requests an exception to the quality policy. Using the exception handling process from this chapter: (1) Evaluate whether this exception should be granted, (2) If granted, what conditions and mitigations should be required, (3) Who should approve this exception, and (4) How should the exception be monitored and eventually resolved.
-
-   - Key Points to Address:
-     - Business justification vs. risk assessment
-     - Temporary vs. permanent exception
-     - Conditions (e.g., quality improvement plan, review schedule)
-     - Mitigation (e.g., warnings, limited access, update commitment)
-     - Appropriate approval level (likely KM Council)
-     - Monitoring and sunset plan for exception
+   - When a business-critical project requests an exception to publish documentation below quality standards due to time constraints, how would you evaluate the request?
+   - What conditions and mitigations would you require if the exception is granted?
+   - Who has the appropriate approval authority for quality policy exceptions?
+   - How would you monitor the exception and ensure eventual resolution to meet standards?
+   - What factors would you weigh between business justification and quality risk?
 
 ---
 

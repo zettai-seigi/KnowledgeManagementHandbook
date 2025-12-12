@@ -1257,15 +1257,35 @@ The SKMS is central to the ITIL Knowledge Management practice.
 
 ## Review Questions
 
-1. **Describe the four layers of the SKMS architecture and explain how they build upon each other to transform data into actionable insights.**
+1. **SKMS Four-Layer Architecture**
+   - What are the four layers of the SKMS architecture and what is the primary purpose of each layer?
+   - How does raw data in the data layer get transformed into actionable insights in the presentation layer?
+   - What types of content or components belong in each layer?
+   - How do the layers interact and build upon each other?
 
-2. **Compare and contrast the CMDB and CMS. Why is it important to understand the distinction between these two concepts in ITIL service management?**
+2. **CMDB vs. CMS**
+   - What are the key differences between a CMDB and a CMS in terms of scope, content, and purpose?
+   - Why is the CMS considered a complete management system while the CMDB is a database?
+   - How do both the CMDB and CMS relate to the SKMS information layer?
+   - Why is understanding this distinction important for ITIL service management?
 
-3. **Explain the role of the Known Error Database (KEDB) in problem management. How does the KEDB integrate with incident management to accelerate resolution?**
+3. **Known Error Database (KEDB)**
+   - What is the primary role of the KEDB in problem management?
+   - What key information should a KEDB entry contain?
+   - How does the KEDB integrate with incident management processes?
+   - How does documenting known errors accelerate incident resolution?
 
-4. **You are designing a new SKMS for a large enterprise with 50,000 employees, multiple data centers, and a hybrid cloud environment. What are the key architectural decisions you need to make, and what factors would influence your choices?**
+4. **SKMS Design for Large Enterprises**
+   - What are the critical architectural decisions when designing an SKMS for a large enterprise (50,000+ employees)?
+   - How would you approach CMDB design for a hybrid cloud environment with multiple data centers?
+   - What integration considerations are important for a large-scale SKMS?
+   - What factors would influence your choices for platform selection, scalability, and governance?
 
-5. **Discuss the governance framework required for an effective SKMS. How do you ensure data quality, appropriate access control, and content currency across all four layers of the SKMS?**
+5. **SKMS Governance Framework**
+   - What are the key elements of an effective SKMS governance framework?
+   - How do you ensure data quality across all four layers of the SKMS?
+   - What access control mechanisms are needed for different stakeholder groups?
+   - How do you maintain content currency and prevent knowledge from becoming outdated?
 
 ---
 

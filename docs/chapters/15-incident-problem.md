@@ -1474,15 +1474,35 @@ Knowledge-Centered Service (KCS) methodology provides a framework for integratin
 
 ## Review Questions
 
-1. **KEDB Design**: Your organization has 45 active known errors, but service desk agents report difficulty finding relevant workarounds during incidents. What specific improvements would you make to your KEDB structure, search capabilities, and integration with incident management tools to improve workaround application rates?
+1. **KEDB Design and Service Desk Integration**
+   - What specific improvements would you make to KEDB structure if service desk agents report difficulty finding relevant workarounds during incidents?
+   - How would you enhance search capabilities to improve workaround application rates?
+   - What integration points with incident management tools would you prioritize?
+   - How would you measure the effectiveness of KEDB improvements?
 
-2. **Workaround Lifecycle**: A workaround for a critical email issue has been in use for 8 months and applied 127 times. The permanent fix has been "in progress" for 6 months with no clear timeline. As Knowledge Manager, what actions would you take to address this situation, and what process improvements would prevent similar situations?
+2. **Workaround Lifecycle Management**
+   - What actions would you take if a workaround has been in use for 8 months and applied 127 times with no permanent fix timeline?
+   - How would you escalate the need for a permanent fix when root cause resolution is delayed?
+   - What process improvements would prevent workarounds from becoming permanent technical debt?
+   - What triggers would you implement for mandatory workaround review and retirement?
 
-3. **Root Cause Knowledge**: After a major incident affecting financial reporting systems, your RCA identifies three root causes: inadequate change testing, missing monitoring alerts, and undocumented system dependencies. Describe what knowledge artifacts you would create from this RCA and how you would ensure this knowledge prevents similar incidents in other systems.
+3. **Root Cause Knowledge Capture and Prevention**
+   - What knowledge artifacts would you create after an RCA identifying inadequate change testing, missing monitoring alerts, and undocumented system dependencies?
+   - How would you structure knowledge to ensure it prevents similar incidents in other systems?
+   - What processes would you implement to embed RCA insights into operational practices?
+   - How would you measure whether RCA knowledge is being effectively reused?
 
-4. **Knowledge Reuse Measurement**: Your service desk has a 45% First Contact Resolution rate, and only 38% of incidents reference knowledge base articles. Design a measurement framework to identify why knowledge reuse is low and what interventions would increase both FCR and knowledge utilization to meet the targets (≥75% FCR, ≥70% KB usage).
+4. **Knowledge Reuse Measurement and Improvement**
+   - What measurement framework would you design to identify why knowledge reuse is low (45% FCR, 38% KB article usage)?
+   - What specific interventions would you implement to increase FCR from 45% to ≥75%?
+   - How would you improve knowledge utilization from 38% to ≥70%?
+   - What barriers to knowledge reuse would you investigate first?
 
-5. **AI Integration Strategy**: Your organization is implementing AI-powered virtual agents for Tier 0 support. How would you integrate your KEDB and incident knowledge to enable the virtual agent to handle common issues autonomously? What knowledge quality standards and safeguards would you implement to ensure accurate automated resolutions?
+5. **AI Integration Strategy for Virtual Agents**
+   - How would you integrate KEDB and incident knowledge to enable virtual agents to handle common issues autonomously?
+   - What knowledge quality standards would you implement to ensure accurate automated resolutions?
+   - What safeguards would you put in place to prevent incorrect AI-suggested solutions?
+   - How would you measure virtual agent effectiveness and knowledge accuracy?
 
 ---
 

@@ -1929,22 +1929,34 @@ Phase 1: Assessment         Phase 2: Capture           Phase 3: Transfer        
 
 ## Review Questions
 
-Test your understanding of knowledge capture concepts and practices:
+1. **Externalization and the SECI Model**
+   - How does knowledge capture relate to the SECI model's Externalization mode?
+   - Why is Externalization critical for organizational knowledge management?
+   - What makes Externalization challenging to achieve effectively?
 
-1. **Externalization and the SECI Model**:
-   Explain how knowledge capture relates to the SECI model's Externalization mode. Why is Externalization critical for organizational knowledge management, and what makes it challenging to achieve effectively?
+2. **Capture Method Selection for Retiring Experts**
+   - What capture methods would you use for a retiring expert with 25 years of experience in a critical technical area?
+   - How would you structure the timeline and phases for this knowledge transfer?
+   - What deliverables would you create during the transfer process?
+   - How would you address the expert's concern about being "too busy" to participate extensively?
 
-2. **Capture Method Selection**:
-   Your organization has identified a retiring expert with 25 years of experience in a critical technical area. Design a knowledge capture plan that includes: (a) appropriate capture methods, (b) timeline and phases, (c) deliverables to create, and (d) how you would address the expert's concern about being "too busy" to participate extensively.
+3. **Overcoming Capture Barriers**
+   - What are at least four potential root causes for a 15% documentation rate in an IT support team?
+   - What specific, actionable solutions would you propose for each identified cause?
+   - How would you measure improvement in documentation rates over time?
 
-3. **Overcoming Capture Barriers**:
-   An IT support team knows they should document solutions when resolving tickets, but documentation rates are only 15%. Identify at least four potential root causes for this low rate and propose specific, actionable solutions for each cause.
+4. **Event-Based Trigger Design**
+   - How would you design a knowledge capture trigger for project closeouts?
+   - What specific information would be captured at project closeout?
+   - Who should be involved in the capture process?
+   - What template or structure would facilitate effective capture?
+   - How would you ensure consistent follow-through on capture activities?
 
-4. **Trigger Design**:
-   Design an event-based knowledge capture trigger for project closeouts that would be built into your organization's project management process. Include: (a) what would trigger the capture, (b) what would be captured, (c) who would be involved, (d) what template or structure would be used, and (e) how you would ensure follow-through.
-
-5. **Quality vs. Speed Trade-offs**:
-   A knowledge management leader argues for rigorous multi-step review processes before publishing any knowledge article. Another leader argues for "publish fast, improve continuously" approach with minimal review. Analyze the trade-offs of each approach and propose a middle ground that balances quality and speed. Under what circumstances would you favor one approach over the other?
+5. **Quality vs. Speed Trade-offs**
+   - What are the trade-offs between rigorous multi-step review processes and "publish fast, improve continuously" approaches?
+   - What middle ground would balance quality and speed effectively?
+   - Under what circumstances would you favor rigorous review before publication?
+   - Under what circumstances would you favor rapid publication with continuous improvement?
 
 ---
 

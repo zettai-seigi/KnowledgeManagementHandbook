@@ -779,139 +779,39 @@ START: What's your primary use case?
 
 ## Review Questions
 
-Test your understanding of technology selection concepts:
+1. **Requirements Prioritization**
+   - How should you prioritize conflicting requirements from different stakeholders (e.g., mobile access vs. SOC 2 compliance vs. cost)?
+   - What framework should you use to categorize requirements as Must Have, Should Have, Could Have, or Won't Have?
+   - How do you balance business impact, compliance necessity, and user needs when defining requirements?
+   - What should you present to financial stakeholders when they prioritize lowest cost over functionality?
 
-### Question 1: Requirements Prioritization
+2. **Build vs. Buy Decisions**
+   - When a company believes they have unique requirements that commercial platforms cannot meet, what approach should you recommend?
+   - How should you evaluate the cost difference between building custom solutions ($1-2M) versus buying and configuring commercial platforms ($150K-300K)?
+   - What is the typical time to value comparison between custom builds (12-24 months) and commercial implementations (3-6 months)?
+   - Under what conditions should an organization actually build a custom KM solution instead of buying?
+   - What is the hybrid approach and when should it be applied?
 
-Your organization is selecting a KM platform. The sales team insists that mobile access is "critical," while IT requires SOC 2 compliance. The CFO wants the lowest cost option. How should you approach prioritization?
+3. **Vendor Evaluation**
+   - How should you evaluate a vendor that demonstrates perfect current capabilities versus one that promises superior future features?
+   - What validation steps should you take when vendors promise roadmap features within 3-6 months?
+   - How should you score platforms based on current versus promised capabilities?
+   - What decision framework should you apply when roadmap features are classified as Must Have versus Should Have?
+   - Why should you never select a platform based primarily on roadmap promises?
 
-**Sample Answer:**
-Use a structured prioritization framework:
-1. **Must Have (Critical):** SOC 2 compliance - non-negotiable for security and risk management
-2. **Should Have (High Priority):** Mobile access - important for user adoption but workarounds exist
-3. **Cost:** Important constraint but not a requirement - evaluate TCO within budget boundaries
+4. **Integration Architecture**
+   - What approach should you take when knowledge is scattered across multiple systems (SharePoint, Confluence, Salesforce, ServiceNow)?
+   - How does federated search address immediate user pain points without disruption?
+   - What are the three phases of a federated search with consolidation strategy?
+   - When should you implement a single knowledge hub versus maintaining distributed repositories?
+   - What is the key principle to avoid when implementing new KM systems?
 
-Create a requirements traceability matrix that maps each requirement to business impact, compliance necessity, and user needs. Use MoSCoW method (Must Have, Should Have, Could Have, Won't Have) with cross-functional stakeholder agreement. Present CFO with TCO analysis showing that lowest upfront cost may have higher long-term TCO.
-
-### Question 2: Build vs. Buy Scenario
-
-A financial services company has a unique compliance requirement: all knowledge articles must be reviewed by compliance officers before publication, with specific regulatory citations linked to articles. The company believes no commercial platform can meet this need and wants to build a custom solution. What's your recommendation?
-
-**Sample Answer:**
-Recommend the **hybrid approach** rather than full custom build:
-
-1. **Buy** a commercial KM platform (e.g., ServiceNow Knowledge, SharePoint, Confluence)
-2. **Configure** the built-in approval workflow to add a compliance review step
-3. **Build** a lightweight custom field for regulatory citations
-4. **Integrate** with existing compliance systems if needed
-
-Rationale:
-- The requirement is workflow customization, not core platform uniqueness
-- All major platforms support configurable approval workflows
-- Custom fields are standard platform capabilities
-- Estimated cost: $150K-300K vs. $1-2M for full custom build
-- Time to value: 4-6 months vs. 18-24 months for custom
-- Future-proof: Benefit from vendor innovation in search, AI, mobile
-
-Only build custom if: No platform supports multi-step approvals (unlikely), regulatory requirements change frequently and unpredictably (configure handles this), or the approval logic is so complex no workflow engine can handle it (rare).
-
-### Question 3: Vendor Evaluation
-
-During vendor demos, Platform A perfectly demonstrates all your scripted scenarios, while Platform B struggles with some scenarios but the vendor explains how those features will be available in the next release (3 months away). Platform B is otherwise superior and costs less. How do you evaluate this situation?
-
-**Sample Answer:**
-Apply critical evaluation and risk assessment:
-
-**Immediate Actions:**
-1. **Verify roadmap commitments:** Request written confirmation of features, timeline, and consequences if not delivered
-2. **Check vendor track record:** Ask references if vendor typically delivers on roadmap promises
-3. **Assess workarounds:** Can you operate without the features for 3 months? What's the impact?
-4. **Negotiate contract terms:** Include roadmap features in contract with remedies if not delivered
-
-**Scoring Approach:**
-- Score Platform A on **current capabilities** (what you saw)
-- Score Platform B on **current capabilities only** (discount future promises)
-- If Platform B still scores higher on current state, it's the better choice
-- Add risk premium: Reduce Platform B score by 5-10% to account for roadmap risk
-
-**Decision Framework:**
-- If features are "Must Have" → Choose platform with current capability (Platform A)
-- If features are "Should Have" → Acceptable risk if vendor is credible (Platform B)
-- If features are "Could Have" → Not decision factors
-
-**Best Practice:** Never select a platform based primarily on roadmap promises. Evaluate current state capabilities.
-
-### Question 4: Integration Architecture
-
-Your organization wants to implement a new KM platform but already has knowledge scattered across SharePoint, Confluence, Salesforce, and ServiceNow. Users complain about not knowing where to look for information. What integration approach do you recommend?
-
-**Sample Answer:**
-Recommend a **federated search pattern** with phased consolidation:
-
-**Phase 1: Immediate (Month 1-3) - Federated Search**
-- Implement unified search layer (e.g., Coveo, SearchUnify, Elastic)
-- Index all existing repositories
-- Single search interface for users
-- Reduces immediate pain without migration disruption
-
-**Phase 2: Rationalization (Month 4-6) - Define Strategy**
-- Audit content across all systems
-- Define future-state architecture:
-  - ServiceNow KB: IT service knowledge
-  - Salesforce: Customer-facing knowledge
-  - Confluence: Technical/product documentation
-  - SharePoint: General company information
-  - Retire duplicate content
-
-**Phase 3: Consolidation (Month 7-18) - Migrate**
-- Migrate content to designated platforms
-- Sunset redundant repositories
-- Maintain federated search for remaining systems
-
-**Alternative Approach** (if starting fresh):
-Implement single "knowledge hub" platform and integrate via API/embedding:
-- Primary platform: (ServiceNow/SharePoint/Confluence based on primary use case)
-- Integrate other systems to push/pull knowledge
-- Embed knowledge in other tools for contextual access
-
-**Key Principle:** Don't create yet another repository that users ignore. Either consolidate to fewer platforms or implement seamless search across existing systems.
-
-### Question 5: TCO Analysis (Example)
-
-Your organization is comparing two platforms (using illustrative example values—substitute your actual quotes):
-- **Platform A:** $50/user/year subscription, $200K implementation, $100K/year operational costs
-- **Platform B:** $25/user/year subscription, $400K implementation, $75K/year operational costs
-- User count: 2,000 employees
-
-Which platform has lower TCO over 3 years? What other factors should influence the decision beyond pure cost?
-
-**Sample Answer:**
-
-**TCO Calculation (Example):**
-
-Platform A (3 years):
-- Year 0: $200K (implementation) + $100K (subscription for 2,000 users) + $100K (operations) = $400K
-- Year 1-3: ($100K subscription + $100K operations) × 3 = $600K
-- **Total 3-year TCO: $1,000K**
-
-Platform B (3 years):
-- Year 0: $400K (implementation) + $50K (subscription for 2,000 users) + $75K (operations) = $525K
-- Year 1-3: ($50K subscription + $75K operations) × 3 = $375K
-- **Total 3-year TCO: $900K**
-
-**In this example, Platform B has 10% lower TCO ($100K savings over 3 years)**
-
-**However, consider beyond pure cost:**
-
-1. **Functionality:** Does Platform A's higher cost deliver significantly better features? (Might justify 10% premium)
-2. **User Adoption:** If Platform A is much easier to use, higher adoption could deliver better ROI
-3. **Time to Value:** Platform A's faster implementation (likely given lower cost) means earlier benefits
-4. **Risk:** Higher implementation cost often correlates with complexity and risk
-5. **Vendor Strength:** Is the lower-cost vendor financially stable?
-6. **Scalability:** Do costs increase proportionally as you add users?
-7. **Change Management:** Lower implementation cost means more budget for adoption activities
-
-**Recommendation:** Platform B has better TCO, but make final decision based on **value delivered** not just cost. Calculate ROI based on expected benefits (productivity gains, deflection, quality improvements). A $100K cost difference is immaterial if one platform delivers significantly higher business value.
+5. **Total Cost of Ownership (TCO) Analysis**
+   - How do you calculate 3-year TCO including subscription, implementation, and operational costs?
+   - What factors beyond pure cost should influence platform selection decisions?
+   - How should you evaluate the relationship between implementation cost and project risk?
+   - When is a cost difference of $100K over 3 years material versus immaterial to the decision?
+   - How do you balance TCO analysis with expected ROI from productivity gains and quality improvements?
 
 ---
 

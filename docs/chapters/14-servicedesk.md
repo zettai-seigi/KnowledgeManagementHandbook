@@ -1191,21 +1191,39 @@ Advanced analytics transform knowledge from reactive to proactive:
 
 ## Review Questions
 
-1. **What are the key differences between Tier 0 (self-service) and Tier 1 (service desk) knowledge requirements?** Consider audience, language, detail level, and success metrics in your answer.
+1. **Tier 0 vs Tier 1 Knowledge Requirements**
+   - What are the key differences in audience between Tier 0 (self-service) and Tier 1 (service desk) knowledge?
+   - How does language and terminology differ between self-service and agent-facing articles?
+   - What level of detail is appropriate for each tier?
+   - How do success metrics differ between Tier 0 and Tier 1 knowledge?
 
-2. **Describe the three-stage quality review process for service desk articles.** Who is involved in each stage and what are they validating?
+2. **Quality Review Process**
+   - What are the three stages of the quality review process for service desk articles?
+   - Who is involved in each review stage and what is their specific role?
+   - What aspects does the Technical Review validate?
+   - What aspects does the Editorial Review focus on?
+   - What perspective does the Peer Review provide?
 
-3. **How does knowledge-enabled service desk architecture differ from traditional approaches where knowledge is a separate system?** Explain at least three integration points.
+3. **Knowledge-Enabled Architecture**
+   - How does knowledge-enabled service desk architecture differ from traditional approaches where knowledge is a separate system?
+   - What are the key integration points at ticket creation?
+   - How is knowledge integrated into the ticket view workflow?
+   - What workflow automation capabilities are enabled by integration?
+   - How does contextual knowledge display eliminate friction for agents?
 
-4. **Using the assumed values below, calculate the annual ROI for a service desk knowledge management initiative.** What assumptions would you need to validate for your organization?
-   - 2,500 tickets deflected annually at $18 per ticket (assumed)
-   - Average handle time reduced by 3 minutes per ticket
-   - 8,000 tickets handled annually
-   - Agent hourly cost: $25/hour (assumed)
-   - Knowledge platform cost: $35,000/year (assumed)
-   - Content creation staff cost: $45,000/year (assumed)
+4. **ROI Calculation**
+   - Using the assumed values below, calculate the annual ROI for a service desk knowledge management initiative
+   - What is the total annual savings from tickets deflected (2,500 tickets at $18/ticket)?
+   - What is the savings from handle time reduction (3 minutes/ticket × 8,000 tickets at $25/hour agent cost)?
+   - What is the total annual cost (platform $35,000 + content creation $45,000)?
+   - What is the calculated ROI percentage?
+   - What assumptions would you need to validate for your specific organization?
 
-5. **What are the top three barriers to service desk knowledge adoption, and what specific solutions would you implement to address each?** Use examples from Table 14.5.
+5. **Adoption Barriers and Solutions**
+   - What are the top three barriers to service desk knowledge adoption according to Table 14.5?
+   - What specific solution would you implement to address low agent adoption?
+   - How would you solve poor search results issues?
+   - What approach would you take to prevent outdated content?
 
 ---
 

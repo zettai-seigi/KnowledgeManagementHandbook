@@ -1210,15 +1210,30 @@ Staleness Level Determined
 
 ## Review Questions
 
-1. **Lifecycle Stage Analysis**: You notice that articles are taking an average of 12 days to move from creation to publication, exceeding your 7-day target. The workflow shows: Creation (4 days), Review (5 days), Approval (2 days), Publication (1 day). Which stage represents the primary bottleneck, what are three potential root causes, and what specific actions would you take to reduce cycle time?
+1. **Lifecycle Stage Analysis**
+   - Your articles take 12 days from creation to publication (target: 7 days) with this breakdown: Creation (4 days), Review (5 days), Approval (2 days), Publication (1 day). Which stage is the primary bottleneck?
+   - What are three potential root causes for this bottleneck?
+   - What specific actions would you take to reduce overall cycle time?
 
-2. **Content Quality Decision**: An article on database configuration has the following metrics: 2.8/5.0 rating, 15 views in the last 90 days, last updated 18 months ago, and contains three broken links. Using the quality gate criteria and decision frameworks from this chapter, recommend whether to update, retire, or archive the content. Justify your recommendation with specific criteria.
+2. **Content Quality Decision**
+   - An article on database configuration has these metrics: 2.8/5.0 rating, 15 views in last 90 days, last updated 18 months ago, three broken links. What is your recommendation: update, retire, or archive?
+   - Using the quality gate criteria from this chapter, justify your decision with specific criteria?
+   - What priority level would you assign to this action and why?
 
-3. **Automation Prioritization**: Your organization has limited resources to implement lifecycle automation. You can choose three automation initiatives from: review reminders, link checking, workflow routing, quality scoring, duplicate detection, and content recommendations. Which three would you prioritize and why? Consider both impact and implementation complexity in your answer.
+3. **Automation Prioritization**
+   - Your organization can implement three lifecycle automation initiatives from this list: review reminders, link checking, workflow routing, quality scoring, duplicate detection, content recommendations. Which three would you prioritize?
+   - For each selected initiative, explain the expected impact and implementation complexity?
+   - What criteria did you use to make your prioritization decisions?
 
-4. **Expiration Management Strategy**: Design a review schedule framework for a knowledge base containing 1,500 articles across four categories: critical procedures (10%), standard procedures (40%), troubleshooting guides (30%), and reference materials (20%). Define review frequencies for each category, specify what triggers immediate review, and calculate the approximate monthly review workload.
+4. **Expiration Management Strategy**
+   - Design review frequencies for a 1,500-article knowledge base with these categories: critical procedures (10%), standard procedures (40%), troubleshooting guides (30%), reference materials (20%). What review frequency would you assign to each category?
+   - What conditions would trigger an immediate review outside the normal schedule?
+   - Calculate the approximate monthly review workload and how you would distribute it?
 
-5. **Lifecycle Governance Challenge**: You've been appointed as the Knowledge Management lead for a department where 30% of content is overdue for review, ownership is unclear for 25% of articles, and the average quality rating is 3.2/5.0. Develop a 90-day action plan to address these governance issues. Include specific milestones, success metrics, and how you would gain stakeholder buy-in for the necessary changes.
+5. **Lifecycle Governance Challenge**
+   - You're the new KM lead for a department where 30% of content is overdue for review, 25% lacks clear ownership, and average quality rating is 3.2/5.0. What are your top three priorities for the first 30 days?
+   - Develop a 90-day action plan with specific milestones and success metrics for each month?
+   - How would you gain stakeholder buy-in for necessary governance changes?
 
 ---
 

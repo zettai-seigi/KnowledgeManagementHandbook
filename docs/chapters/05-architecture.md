@@ -1218,15 +1218,30 @@ Knowledge architecture must support users with diverse abilities:
 
 ## Review Questions
 
-1. **Architecture Design:** You are designing a knowledge architecture for a global organization with 50,000 employees across 20 countries. The organization has strong regional autonomy but wants consistent user experience. What architecture pattern would you recommend and why? What are the key governance mechanisms you would establish?
+1. **Architecture Design**
+   - What architecture pattern would you recommend for a global organization with 50,000 employees across 20 countries that has strong regional autonomy but wants consistent user experience?
+   - What rationale supports this architecture pattern selection?
+   - What key governance mechanisms would you establish to balance regional autonomy with consistency?
 
-2. **Taxonomy Development:** During card sorting sessions, you discover that different user groups organize the same content very differently. IT staff prefer a technical/service-based taxonomy, while business users prefer a task-based organization. How would you resolve this conflict in your taxonomy design?
+2. **Taxonomy Development**
+   - How would you resolve conflicts when different user groups organize the same content very differently during card sorting sessions?
+   - How would you accommodate IT staff who prefer a technical/service-based taxonomy alongside business users who prefer a task-based organization?
+   - What design approaches enable a taxonomy to serve multiple user mental models effectively?
 
-3. **Metadata Strategy:** Your organization has 100,000 existing documents with minimal or inconsistent metadata. You are implementing a new metadata schema with 15 fields, 5 of which are required. Describe your approach to metadata migration, including how you would handle legacy content and ensure data quality.
+3. **Metadata Strategy**
+   - How would you approach migrating 100,000 existing documents with minimal or inconsistent metadata to a new schema with 15 fields, 5 of which are required?
+   - What strategies would you use to handle legacy content that lacks required metadata?
+   - How would you ensure data quality throughout the migration process?
 
-4. **Search Optimization:** Search analytics show that 40% of user queries return zero results, and many users report difficulty finding content even when it exists. What systematic approach would you take to diagnose and resolve these findability issues?
+4. **Search Optimization**
+   - What systematic approach would you take to diagnose why 40% of user queries return zero results?
+   - What factors might cause users to report difficulty finding content even when it exists?
+   - What specific optimization techniques would you implement to improve findability?
 
-5. **Architecture Evolution:** Your knowledge architecture has been in place for three years. Recent user feedback indicates confusion with the taxonomy structure, and new business initiatives have created content that doesn't fit existing categories. How would you approach evaluating and potentially restructuring the architecture while minimizing disruption to users?
+5. **Architecture Evolution**
+   - How would you evaluate a three-year-old knowledge architecture when users report confusion with the taxonomy structure?
+   - What approach would you take when new business initiatives create content that doesn't fit existing categories?
+   - How would you restructure the architecture while minimizing disruption to users?
 
 ---
 

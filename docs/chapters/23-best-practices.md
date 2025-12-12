@@ -2486,9 +2486,7 @@ Anti-patterns are common responses to recurring problems that initially seem ben
 
 ---
 
-## Review Questions and Self-Assessment
-
-### Comprehension Questions
+## Review Questions
 
 1. **Best Practices Application**
    - Which of the 10 best practices do you believe would have the greatest impact in your organization? Why?

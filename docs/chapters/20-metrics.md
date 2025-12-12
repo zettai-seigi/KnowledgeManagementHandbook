@@ -2197,15 +2197,36 @@ Optimization target: Increase to >60%
 
 ## Review Questions
 
-1. **Framework Application:** You've been asked to implement a comprehensive KM measurement program. Describe how you would apply the four-dimensional framework (Usage, Quality, Contribution, Business Value) to ensure balanced assessment. What are the risks of overemphasizing one dimension at the expense of others?
+1. **Framework Application**
+   - How would you apply the four-dimensional framework (Usage, Quality, Contribution, Business Value) to implement a comprehensive KM measurement program?
+   - What are the risks of overemphasizing one dimension at the expense of others?
+   - How would you ensure balanced assessment across all four dimensions?
 
-2. **Dashboard Design:** Design an operational dashboard for a KM manager of a 500-person IT organization. What are the 10 most critical metrics you would include, how would you visualize each, and what alert thresholds would you set? Justify your selections based on actionability and business impact.
+2. **Dashboard Design**
+   - What are the 10 most critical metrics you would include in an operational dashboard for a KM manager of a 500-person IT organization?
+   - How would you visualize each metric for maximum impact and clarity?
+   - What alert thresholds would you set for each metric?
+   - How do you justify your selections based on actionability and business impact?
 
-3. **Benchmarking Strategy:** Your organization's Knowledge Article Usage Rate is 58%, while the industry average is 65% and top quartile is 75%. Develop a roadmap to reach top quartile performance within 18 months. What diagnostic analysis would you conduct, what root causes might you discover, and what interventions would you prioritize?
+3. **Benchmarking Strategy**
+   - Your organization's Knowledge Article Usage Rate is 58%, while the industry average is 65% and top quartile is 75%. How would you develop a roadmap to reach top quartile performance within 18 months?
+   - What diagnostic analysis would you conduct to understand the current performance gap?
+   - What root causes might you discover through this analysis?
+   - What interventions would you prioritize and why?
 
-4. **Metrics-Driven Improvement:** You notice that Search Success Rate has plateaued at 80% despite multiple improvement initiatives. Using the hypothesis-driven improvement methodology, design an experiment to test whether enhanced metadata quality will break through the plateau. Include hypothesis, test design, success metrics, sample size considerations, and decision criteria.
+4. **Metrics-Driven Improvement**
+   - Search Success Rate has plateaued at 80% despite multiple improvement initiatives. How would you use hypothesis-driven improvement methodology to address this?
+   - What hypothesis would you formulate about enhanced metadata quality breaking through the plateau?
+   - How would you design an experiment to test this hypothesis?
+   - What success metrics and sample size considerations would you include?
+   - What decision criteria would you establish for scaling the solution?
 
-5. **Advanced Analytics:** A stakeholder asks you to implement predictive analytics for content decay. Describe what data you would need to collect, what model approach you would use, how you would validate the model's accuracy, and how you would operationalize the predictions into the content review workflow. What are the potential pitfalls and how would you mitigate them?
+5. **Advanced Analytics**
+   - What data would you need to collect to implement predictive analytics for content decay?
+   - What model approach would you use and why?
+   - How would you validate the model's accuracy?
+   - How would you operationalize the predictions into the content review workflow?
+   - What are the potential pitfalls and how would you mitigate them?
 
 ---
 

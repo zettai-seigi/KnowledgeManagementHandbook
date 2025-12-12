@@ -1410,17 +1410,35 @@ Use this checklist to ensure quality in knowledge conversion projects:
 
 ## Review Questions
 
-Test your understanding of knowledge conversion concepts:
+1. **SECI Model Application**
+   - How would you apply Socialization mode to enable junior DBAs to learn from expert database administrators?
+   - What Externalization techniques would you use to capture the troubleshooting expertise into documentation?
+   - How would you use Combination to integrate this captured knowledge with existing documentation?
+   - What Internalization approaches would help junior team members develop tacit understanding from the explicit documentation?
 
-1. **SECI Model Application**: Your organization has expert database administrators whose troubleshooting expertise is not documented. Describe how you would apply all four modes of the SECI model (Socialization, Externalization, Combination, Internalization) to capture, codify, and transfer this expertise to junior team members. What specific techniques would you use for each mode?
+2. **Conversion Method Selection**
+   - Which knowledge conversion techniques would be most appropriate for capturing a retiring project manager's knowledge of organizational relationships and political dynamics?
+   - Why might these techniques be more effective than others for this type of knowledge?
+   - What are the limitations of explicit documentation for stakeholder management knowledge?
+   - How would you balance tacit and explicit transfer for this knowledge domain?
 
-2. **Conversion Method Selection**: You need to capture knowledge from a retiring project manager who has deep understanding of organizational relationships, political dynamics, and stakeholder management. Which knowledge conversion techniques would be most appropriate for this type of knowledge, and why? What are the limitations of explicit documentation for this knowledge domain?
+3. **Quality Assurance**
+   - What validation steps would you take to ensure a documented incident diagnosis decision tree is accurate and complete?
+   - Who should be involved in the review process (experts, users, others)?
+   - How would you test the decision tree's usability with the target audience?
+   - What criteria would you use to assess the quality of the documented knowledge?
 
-3. **Quality Assurance**: You have documented an expert's incident diagnosis process as a decision tree. What validation steps would you take to ensure the documented knowledge is accurate, complete, and usable by the target audience? Who should be involved in the review process?
+4. **Technology Selection**
+   - What are the pros and cons of using written procedures with screenshots for capturing system configuration procedures?
+   - What are the advantages and disadvantages of video screen recordings with narration?
+   - How do interactive simulations compare to the other approaches?
+   - What factors would influence your choice among these three options?
 
-4. **Technology Selection**: Your knowledge conversion initiative needs to capture expert demonstrations of system configuration procedures. Evaluate the pros and cons of the following approaches: (a) written procedures with screenshots, (b) video screen recordings with narration, (c) interactive simulations. What factors would influence your choice?
-
-5. **Strategic Decision**: Your IT security team has unique threat detection expertise that gives your organization competitive advantage. The CISO wants this knowledge documented "just in case" key team members leave. What factors would you consider in deciding whether to externalize this knowledge? How would you balance knowledge risk against competitive advantage concerns?
+5. **Strategic Decision**
+   - What factors would you consider in deciding whether to externalize unique threat detection expertise?
+   - How would you assess the knowledge risk of not documenting this expertise?
+   - How would you evaluate the competitive advantage concerns of documenting it?
+   - What hybrid approach might balance knowledge preservation with competitive protection?
 
 ---
 

@@ -858,15 +858,29 @@ Chapter 18 (Governance Framework) provides additional depth on governance struct
 
 ## Review Questions
 
-1. **Strategic Alignment:** How does linking KM strategy to organizational value streams demonstrate business value and secure executive sponsorship? What techniques can you use to identify knowledge bottlenecks in critical processes?
+1. **Strategic Alignment**
+   - How does linking KM strategy to organizational value streams demonstrate business value and secure executive sponsorship?
+   - What techniques can you use to identify knowledge bottlenecks in critical processes?
 
-2. **Business Case Development:** Using assumed values, calculate the 3-year ROI for a KM initiative with the following parameters: Year 1 costs $500K (30% benefit realization), Year 2 costs $300K (70% realization), Year 3 costs $250K (100% realization), with annual hard benefits of $900K. What is the payback period? What additional assumptions would need validation?
+2. **Business Case Development**
+   - Using assumed values, calculate the 3-year ROI for a KM initiative with the following parameters: Year 1 costs $500K (30% benefit realization), Year 2 costs $300K (70% realization), Year 3 costs $250K (100% realization), with annual hard benefits of $900K.
+   - What is the payback period?
+   - What additional assumptions would need validation?
 
-3. **Critical Success Factors:** Select three of the eight CSFs and explain how they are interconnected. How would weakness in one CSF impact the others? What should be the priority sequence for addressing CSF gaps?
+3. **Critical Success Factors**
+   - Select three of the eight CSFs and explain how they are interconnected.
+   - How would weakness in one CSF impact the others?
+   - What should be the priority sequence for addressing CSF gaps?
 
-4. **Governance Design:** Design a governance RACI matrix for your organization's KM program. Who should be accountable for knowledge quality in a federated governance model? How do you balance central control with domain autonomy?
+4. **Governance Design**
+   - Design a governance RACI matrix for your organization's KM program.
+   - Who should be accountable for knowledge quality in a federated governance model?
+   - How do you balance central control with domain autonomy?
 
-5. **Strategy Execution:** Your KM strategy implementation is at Month 12, but the Knowledge Article Usage Rate KPI is at 45% vs. the 60% target, and it has been flat for two months. What diagnostic questions would you ask? What course corrections might be appropriate? When would you escalate to the steering committee?
+5. **Strategy Execution**
+   - Your KM strategy implementation is at Month 12, but the Knowledge Article Usage Rate KPI is at 45% vs. the 60% target, and it has been flat for two months. What diagnostic questions would you ask?
+   - What course corrections might be appropriate?
+   - When would you escalate to the steering committee?
 
 ---
 

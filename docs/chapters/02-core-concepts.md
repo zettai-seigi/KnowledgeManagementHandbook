@@ -905,15 +905,36 @@ The DIKW hierarchy and knowledge type taxonomy introduced here form the theoreti
 
 Test your understanding of the core concepts covered in this chapter:
 
-1. **DIKW Application**: You receive a monitoring alert: "Database query response time: 3500ms." Transform this through each level of the DIKW hierarchy. What additional context would you need at each level?
+1. **DIKW Hierarchy Application**
+   - You receive a monitoring alert: "Database query response time: 3500ms." How would you transform this through each level of the DIKW hierarchy?
+   - What additional context would you need at the Information level?
+   - What experience would be required to move from Information to Knowledge?
+   - What strategic judgment would elevate this to the Wisdom level?
 
-2. **Knowledge Type Identification**: Your senior network engineer can diagnose complex routing issues by reviewing log files in ways that junior engineers cannot replicate, even with the same logs. What type of knowledge is this? What strategies would you use to capture and transfer this knowledge?
+2. **Knowledge Type Identification and Conversion**
+   - Your senior network engineer can diagnose complex routing issues by reviewing log files in ways that junior engineers cannot replicate, even with the same logs. What type of knowledge is this?
+   - Is this tacit, implicit, explicit, or embedded knowledge?
+   - What strategies would you use to capture this knowledge?
+   - What methods would be most effective for transferring this knowledge to junior engineers?
 
-3. **Classification Challenge**: You need to classify a document titled "Emergency Response Procedures for Data Center Power Failure." Apply the classification scheme from Table 2.3 to this document across all dimensions.
+3. **Knowledge Classification Practice**
+   - You need to classify a document titled "Emergency Response Procedures for Data Center Power Failure." What would be its content type classification?
+   - What lifecycle stage should this document be in?
+   - Who should be the target audience?
+   - What priority/criticality level should be assigned?
+   - How frequently should this document be reviewed?
 
-4. **Intellectual Capital Assessment**: Your organization is considering an acquisition. How would you assess the target company's intellectual capital across human, structural, and relational dimensions? What specific indicators would you examine?
+4. **Intellectual Capital Assessment**
+   - Your organization is considering an acquisition. What human capital indicators would you examine in the target company?
+   - What structural capital assets would you assess?
+   - What relational capital factors would be important to evaluate?
+   - How would you measure the overall intellectual capital value?
 
-5. **Organizational Memory**: Your IT department has experienced 40% turnover in the past year. What specific symptoms of organizational amnesia would you look for? Design a three-month program to rebuild critical organizational memory.
+5. **Organizational Memory and Amnesia**
+   - Your IT department has experienced 40% turnover in the past year. What specific symptoms of organizational amnesia would you look for?
+   - What critical knowledge is most at risk of being lost?
+   - What immediate actions would you take to capture at-risk knowledge?
+   - How would you design a three-month program to rebuild critical organizational memory?
 
 ---
 

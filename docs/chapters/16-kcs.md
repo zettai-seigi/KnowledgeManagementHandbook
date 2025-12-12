@@ -1519,258 +1519,35 @@ KCS implementation is fundamentally a change management initiative, not a techno
 
 ## 16.15 Review Questions
 
-Test your understanding of Knowledge-Centered Service principles and practices:
+1. **KCS Solve Loop Application**
+   - What KCS practices should an agent follow when receiving a VPN access incident?
+   - How should knowledge be captured during certificate expiration troubleshooting?
+   - What steps ensure future reuse of the solution?
+   - How should the article be structured and linked to the incident?
 
-1. **Solve Loop Application**
+2. **Contributor Licensing Assessment**
+   - What metrics indicate a KCS Candidate is ready for full Contributor license?
+   - How should quality gaps (low ratings, high flag rates) be addressed?
+   - What development activities help improve article structure and completeness?
+   - When should re-evaluation occur and what criteria should be met?
 
-   A support agent receives an incident about users unable to access the VPN. They spend 15 minutes researching and discover it's a certificate expiration issue. They resolve the incident and close the ticket.
+3. **Content Health Management**
+   - How do you prioritize content health issues in a knowledge base?
+   - What actions improve search success rates and reduce zero-result searches?
+   - How should stale or unused articles be managed?
+   - What strategies resolve flagged article backlogs effectively?
 
-   **Question:** What KCS practices were missed in this scenario, and what should have been done differently at each step?
+4. **KCS Platform Selection**
+   - What information is needed to evaluate knowledge management platforms for KCS?
+   - How should ITSM integration capabilities be weighted against analytics features?
+   - What factors determine whether to choose immediate integration or advanced analytics?
+   - How does organizational maturity level affect platform selection decisions?
 
-   <details>
-   <summary>Answer</summary>
-
-   **Missed KCS Practices:**
-   - No evidence of searching for existing knowledge before researching
-   - No knowledge article created or updated with the solution
-   - No article linked to the incident
-   - Opportunity for future reuse lost
-
-   **What Should Have Been Done:**
-   1. **Capture:** Document incident clearly including VPN connection failure symptoms
-   2. **Search:** Search knowledge base for "VPN certificate," "VPN connection failure," "VPN authentication error"
-   3. **Solve:** Research and resolve (if no existing article found)
-   4. **Capture:** Create article: "How to resolve VPN connection failures due to expired certificates"
-   5. **Structure:** Include environment, symptoms, cause (certificate expiration), resolution steps, verification
-   6. **Link:** Link article to incident
-   7. **Improve:** Consider if article needs enhancement (screenshots, error message examples)
-
-   This approach ensures the next agent facing this issue can resolve it in 2-3 minutes instead of 15, and certificates expiration becomes predictable/preventable.
-   </details>
-
-2. **Licensing Decision**
-
-   Jordan has been a KCS Candidate for 4 months. Metrics show: 25 articles created, average rating 3.8/5.0, 8% flag rate for quality issues, search-first rate of 85%, improvement rate of 12%. Jordan's coach observes good intent but inconsistent article structure and occasional missing key information.
-
-   **Question:** Should Jordan be licensed as a KCS Contributor? Why or why not? What development is needed?
-
-   <details>
-   <summary>Answer</summary>
-
-   **Decision:** Not yet ready for full Contributor license. Jordan shows promise but needs more development.
-
-   **Rationale:**
-   - **Strengths:** Good article volume (25), decent search behavior (85%), willing to improve (12% update rate)
-   - **Gaps:** Rating below target (3.8 vs 4.0), flag rate too high (8% vs <5% target), structural inconsistency
-
-   **Development Plan:**
-   - **Article Structure:** Template adherence training, review examples of highly-rated articles, use article quality checklist before publishing
-   - **Completeness:** Focus on including all required sections (Environment, Resolution, Verification), practice writing complete articles
-   - **Increased Coaching:** Weekly article reviews with specific improvement feedback for 1-2 months
-   - **Peer Learning:** Shadow a licensed Contributor for 2-3 incidents to observe best practices
-
-   **Re-evaluation Criteria:**
-   - Average rating >4.0 over 30-day period
-   - Flag rate <5% for new articles
-   - Coach observation: consistent quality and structure
-   - Self-assessment: confidence in article standards
-
-   **Timeline:** Re-evaluate in 6-8 weeks
-   </details>
-
-3. **Content Health Analysis**
-
-   Your knowledge base has 1,200 articles. Analytics show: 840 articles (70%) used in last 90 days, 360 articles not viewed, average rating 4.1/5.0, search success rate 76%, 45 articles flagged for review (backlog), zero-result search rate 9%.
-
-   **Question:** Identify the top 3 content health priorities and recommend specific actions for each.
-
-   <details>
-   <summary>Answer</summary>
-
-   **Priority 1: Zero-Result Search Rate (9%)**
-   - **Target:** <5%
-   - **Actions:**
-     - Analyze top 20 zero-result searches to identify content gaps
-     - Create articles for high-frequency searches with no results
-     - Review article titles and keywords for existing content that should have matched
-     - Add symptom-based keywords and error messages to improve findability
-     - Consider synonyms and alternate phrasing in article metadata
-
-   **Priority 2: Flagged Article Backlog (45 articles)**
-   - **Target:** <20 articles flagged at any time, <7 days average resolution time
-   - **Actions:**
-     - Triage flagged articles by severity (accuracy issue vs. minor update)
-     - Assign high-priority flags to SMEs for immediate review
-     - Establish weekly flag resolution session with KCS coaches
-     - Review flag workflow - are flags being resolved or accumulating?
-     - Consider: do 45 flags indicate quality issues requiring broader coaching?
-
-   **Priority 3: Stale Content (360 unused articles - 30%)**
-   - **Target:** <20% unused in 90 days
-   - **Actions:**
-     - Review unused articles: Are they obsolete, or just poorly findable?
-     - Archive articles for retired products/services (check with product teams)
-     - Improve titles and keywords for articles that should be found but aren't
-     - Link related unused articles to popular articles
-     - Consider consolidating similar articles
-     - Schedule quarterly stale content review process
-
-   **Additional Notes:**
-   - Overall rating (4.1) and active content rate (70%) are healthy
-   - Search success (76%) is close to target (80%) and will improve with zero-result focus
-   - Celebrate current strengths while addressing these improvement areas
-   </details>
-
-4. **KCS Tool Evaluation**
-
-   Your organization is evaluating two knowledge management platforms for KCS. Platform A has excellent analytics and is KCS-certified but requires custom development for ITSM integration (3-month project). Platform B has native ITSM integration but limited reporting capabilities and no licensing framework support.
-
-   **Question:** What additional information would you need to make the decision? What factors should weigh most heavily? How would you approach the decision?
-
-   <details>
-   <summary>Answer</summary>
-
-   **Additional Information Needed:**
-
-   *Technical/Functional:*
-   - Can Platform B's reporting be enhanced through API/custom development?
-   - Does Platform B support custom fields for licensing framework?
-   - What is Platform A's typical integration timeline/cost?
-   - Performance and scalability of both platforms at your expected volume
-
-   *Organizational Context:*
-   - Current IT development capacity and backlog
-   - Urgency of KCS implementation (waiting 3 months for integration acceptable?)
-   - KCS maturity level (early adoption needs integration more; mature teams can work around limits)
-   - Budget for initial and ongoing customization
-   - Existing vendor relationships and support quality
-
-   *User Experience:*
-   - Conduct usability testing with actual support staff for both platforms
-   - How easy is article creation in each?
-   - Search effectiveness comparison
-   - Mobile experience for both
-
-   **Decision Framework:**
-
-   **Weighting Factors (adapt to your context):**
-   1. **ITSM Integration (30%)** - Critical for Solve Loop adoption; if friction exists, people won't use it
-   2. **Usability (25%)** - Must be faster than not using KCS
-   3. **KCS Methodology Support (20%)** - Licensing, workflow, article states
-   4. **Analytics (15%)** - Need Evolve Loop metrics eventually, but can work around initially
-   5. **Implementation Timeline (10%)** - Faster value realization matters
-
-   **Recommended Approach:**
-
-   *If you're starting KCS (Level 1-2 maturity):*
-   - **Choose Platform B** - Integration is critical early; you can live with basic metrics during pilot; add analytics through other means or negotiate enhancements
-   - Rationale: Adoption depends on workflow integration; sophisticated analytics matter less when you're building the practice
-
-   *If you're mature in KCS (Level 3-4 maturity):*
-   - **Choose Platform A** - Your team will adopt KCS regardless of integration friction; advanced analytics and methodology support are more valuable at this stage
-   - Rationale: Mature teams need sophisticated analysis for optimization; can manage 3-month integration project
-
-   *Hybrid Approach:*
-   - Start with Platform B for fast deployment
-   - Use ITSM tool's reporting plus exports for basic KCS metrics
-   - Build business case for Platform A migration once KCS value proven and budget available
-   </details>
-
-5. **Change Resistance Scenario**
-
-   You're 6 months into KCS implementation. Team A has 85% link rate and enthusiastic adoption. Team B has 30% link rate, and team members say "we're too busy," "our work is too complex to document," and "we already know what we're doing." Team B's manager is supportive but not actively engaged in coaching.
-
-   **Question:** Diagnose the root causes of Team B's resistance and propose a specific action plan to improve adoption.
-
-   <details>
-   <summary>Answer</summary>
-
-   **Root Cause Analysis:**
-
-   **Primary Causes:**
-   1. **Lack of Managerial Modeling:** Manager's passive support isn't enough; team takes cues from manager's behavior, not words
-   2. **Value Not Demonstrated Locally:** Team B hasn't experienced personal benefit from KCS
-   3. **Perceived Workload Conflict:** KCS seen as additional work, not integrated workflow
-   4. **Complexity Rationalization:** Using work complexity as justification to avoid change
-   5. **Insufficient Coaching:** 30% adoption suggests coaching hasn't been adequate
-
-   **Secondary Causes:**
-   - Possible skills gap (don't know how to document complex work)
-   - No consequences for non-adoption (learned they can ignore it)
-   - Team culture of individual heroics rather than collaboration
-
-   **Action Plan:**
-
-   **Week 1-2: Assessment and Engagement**
-   1. **Manager Activation:**
-      - Meet with Team B manager one-on-one
-      - Review Team A metrics and success stories
-      - Set explicit expectations: Manager must model KCS behaviors
-      - Weekly manager check-ins during turnaround period
-
-   2. **Root Cause Validation:**
-      - Individual conversations with Team B members (not group)
-      - Understand specific concerns and barriers
-      - Identify potential champions within the team
-
-   **Week 3-4: Targeted Intervention**
-   3. **Complexity Myth-Busting:**
-      - Select complex incident from Team B
-      - Work with team member to document it together (side-by-side coaching)
-      - Demonstrate that complex work can be structured
-      - Have the same incident come in again and show time saved through reuse
-
-   4. **Manager Modeling:**
-      - Manager creates/updates 2-3 articles themselves
-      - Manager references KB articles in team meetings
-      - Manager publicly recognizes knowledge contributions
-
-   5. **Workload Reality Check:**
-      - Time study: Track time spent on repeated issues without KCS
-      - Calculate time that would be saved with knowledge reuse
-      - Present findings: "You spent 4 hours this week on password reset variations; KB article would have taken 10 minutes to create, saved 3.5 hours"
-
-   **Week 5-8: Intensive Coaching and Reinforcement**
-   6. **Dedicated Coaching:**
-      - Assign KCS coach to Team B (daily presence for 4 weeks)
-      - Side-by-side sessions with each team member
-      - Focus on making article creation easy and fast
-      - Celebrate every article created
-
-   7. **Peer Learning:**
-      - Arrange shadowing: Team B members observe Team A for half-day
-      - Have Team A members share their experience
-      - Team B member feedback: What did you learn? What will you try?
-
-   8. **Quick Wins:**
-      - Start with documenting highest-volume, repetitive issues
-      - Track and celebrate time savings immediately
-      - Share metrics weekly: "Team B created 12 articles this week; these were reused 23 times, saving ~6 hours"
-
-   **Week 9-12: Sustaining and Expanding**
-   9. **Accountability:**
-      - Set team target: 60% link rate by end of month 3
-      - Individual coaching on outliers
-      - Manager addresses persistent non-adoption in 1-on-1s
-
-   10. **Recognition:**
-       - Highlight Team B's improvement in broader organization communications
-       - Recognize individuals who showed biggest change
-       - Share Team B success stories with other teams
-
-   **Success Criteria:**
-   - Team B link rate >60% by end of month 3
-   - At least 50 new articles created by Team B
-   - Manager actively coaching and modeling (observable behaviors)
-   - Team sentiment shift (follow-up interviews)
-   - Reduction in repeat issues for Team B
-
-   **If Still Not Successful:**
-   - Consider whether this is performance management issue
-   - Evaluate fit of team members with KCS-oriented culture
-   - Review whether manager is right fit for KCS environment
-   - Don't let one team undermine broader KCS adoption
-   </details>
+5. **Change Resistance and Adoption**
+   - What are common root causes when teams resist KCS adoption?
+   - How can managerial engagement impact team adoption rates?
+   - What interventions effectively address "too busy" and "too complex" resistance?
+   - How should action plans balance coaching, accountability, and recognition?
 
 ---
 

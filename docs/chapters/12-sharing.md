@@ -1372,15 +1372,39 @@ Effective knowledge sharing requires all four modes of conversion, supported by 
 
 ## Review Questions
 
-1. **Compare and contrast push and pull approaches to knowledge sharing. Provide three examples of situations where each would be most appropriate, and explain why.**
+1. **Push vs. Pull Knowledge Sharing Approaches**
+   - What are the key differences in how push and pull approaches deliver knowledge to users?
+   - In what situations would push approaches be most appropriate, and why?
+   - When would pull approaches provide the most value, and for what reasons?
+   - How can organizations balance both approaches for maximum effectiveness?
 
-2. **A global organization with 5,000 employees across 15 countries is struggling with knowledge silos. Using the barriers framework from this chapter, identify at least five specific barriers that might be causing this problem and propose concrete mitigation strategies for each.**
+2. **Knowledge Silos in Global Organizations**
+   - What individual-level barriers might prevent knowledge sharing across geographic boundaries?
+   - How do team and group barriers manifest in distributed organizations?
+   - What organizational-level factors contribute to knowledge silos?
+   - What specific mitigation strategies address each barrier category?
+   - How can leadership help break down these silos?
 
-3. **Design a knowledge-sharing incentive program that balances intrinsic and extrinsic motivation. Your program should include at least three specific initiatives, explain how each addresses different motivational factors, and describe how you would measure its effectiveness.**
+3. **Designing Knowledge-Sharing Incentive Programs**
+   - What intrinsic motivations naturally drive people to share knowledge?
+   - How can organizations enhance and leverage intrinsic motivation?
+   - What types of extrinsic incentives effectively complement intrinsic drivers?
+   - How should incentive programs balance recognition, performance management, and career development?
+   - What metrics would demonstrate the effectiveness of the incentive program?
 
-4. **You are implementing an enterprise social networking tool to facilitate knowledge sharing. Using the tool evaluation framework from this chapter, create a weighted scoring matrix with at least 8 criteria, assign weights based on organizational priorities, and explain how you would conduct the evaluation process.**
+4. **Evaluating Enterprise Social Networking Tools**
+   - What evaluation criteria are most critical for knowledge-sharing technology selection?
+   - How should different criteria be weighted based on organizational priorities?
+   - What role do user experience and cultural fit play in tool evaluation?
+   - How should organizations conduct pilots and gather feedback?
+   - What total cost of ownership factors must be considered?
 
-5. **A company is transitioning to a hybrid work model (3 days remote, 2 days in office). Develop a comprehensive knowledge-sharing strategy that addresses the challenges of distributed work while leveraging both synchronous and asynchronous mechanisms. Include specific recommendations for technology, culture, and practices.**
+5. **Hybrid Work Knowledge-Sharing Strategy**
+   - What specific challenges does hybrid work create for knowledge sharing?
+   - How can synchronous mechanisms be used effectively in distributed settings?
+   - What asynchronous tools and practices support knowledge flow across time and space?
+   - How should the strategy address relationship building and trust in hybrid environments?
+   - What cultural changes and technology investments are needed to support the strategy?
 
 ---
 

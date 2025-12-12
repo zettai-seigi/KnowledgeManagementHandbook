@@ -1395,25 +1395,44 @@ If a community enters dispersed stage but has ongoing value:
 
 Test your understanding of communities of practice concepts:
 
-1. **What are the three defining elements of a community of practice, and how do they differ from the characteristics of formal organizational structures?**
+1. **Defining Elements and Organizational Structures**
+   - What are the three defining elements of a community of practice?
+   - How does the domain element differ from organizational job functions?
+   - What distinguishes CoP communities from formal reporting relationships?
+   - How does CoP practice differ from mandated organizational processes?
+   - What makes membership in CoPs different from team assignments?
 
-   *Key points to address*: Domain (shared interest/expertise), Community (relationships and interaction), Practice (shared resources and approaches); contrast with formal structures based on reporting relationships, assigned membership, and functional roles.
+2. **CoP Design and Launch Decisions**
+   - What domain definition and scope considerations are essential when launching a distributed CoP?
+   - What membership model options exist and when is each appropriate?
+   - What leadership structure best supports geographically dispersed communities?
+   - How should technology platforms be selected for global communities?
+   - What launch process phases ensure successful community activation?
+   - What success metrics align with both member needs and organizational goals?
 
-2. **You are launching a community of practice for agile practitioners across a large, geographically distributed organization. Describe the key design decisions you must make and justify your choices.**
+3. **Engagement Patterns and Strategies**
+   - Is the 90-9-1 participation pattern (95% lurkers, 2-3% core contributors) problematic?
+   - What is the 90-9-1 rule and why is it normal in online communities?
+   - How can you make passive consumption valuable for lurkers?
+   - What strategies lower barriers for occasional contributors?
+   - How should core contributors be supported to prevent burnout?
+   - What approaches gradually encourage increased engagement without forcing participation?
 
-   *Key points to address*: Domain definition and scope; membership model (open, tiered, invitation-based); leadership structure; technology platform selection considering global distribution; launch process including core group, charter, and quick wins; success metrics aligned with organizational goals.
+4. **Virtual vs. In-Person Communities**
+   - What unique challenges do virtual communities face compared to in-person CoPs?
+   - What best practices address reduced social cues in virtual environments?
+   - How can communities effectively manage time zone challenges?
+   - When is a hybrid model more appropriate than purely virtual or in-person?
+   - What considerations ensure equal inclusion of virtual members in hybrid settings?
+   - How do asynchronous participation strategies support distributed communities?
 
-3. **A community coordinator reports that 95% of members are lurkers who never post or contribute, with only 2-3 members creating all content. Is this a problem? What strategies would you recommend?**
-
-   *Key points to address*: 90-9-1 rule is normal; lurking is legitimate participation if content is valuable; strategies for each group (make consumption easy for lurkers, lower barriers for occasional contributors, support core contributors); importance of not forcing participation; ways to gradually encourage increased engagement.
-
-4. **Compare and contrast the challenges and best practices of virtual communities versus in-person communities of practice. Under what circumstances would you recommend a hybrid model?**
-
-   *Key points to address*: Virtual challenges (reduced social cues, time zones, technology barriers, engagement fatigue); virtual best practices (build social presence, asynchronous participation, rhythm and ritual); hybrid when community is geographically dispersed but some members are co-located; considerations for ensuring equal inclusion of virtual members in hybrid settings.
-
-5. **How would you measure the value and impact of a community of practice? Describe both quantitative metrics and qualitative approaches, and explain why both are necessary.**
-
-   *Key points to address*: Multiple measurement dimensions (engagement/health, knowledge outputs, business impact, member satisfaction); specific metrics for each dimension; importance of value stories complementing quantitative data; balanced scorecard approach; demonstrating ROI to sponsors and stakeholders; using measurement for improvement not just accountability.
+5. **Measuring CoP Value and Impact**
+   - What dimensions should be included in comprehensive CoP measurement?
+   - What specific engagement and health metrics indicate community vitality?
+   - How can knowledge output quality and usage be quantified?
+   - What approaches assess business impact from community activities?
+   - Why are qualitative value stories necessary alongside quantitative metrics?
+   - How should measurement approaches balance accountability with improvement goals?
 
 ---
 

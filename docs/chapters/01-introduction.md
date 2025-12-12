@@ -785,15 +785,25 @@ Implementation planning, change management, technology selection, and continuous
 
 Test your understanding of key concepts from this chapter:
 
-1. **Conceptual Understanding**: Explain the difference between data, information, and knowledge. Why is this distinction important for Knowledge Management?
+1. **Conceptual Understanding**
+   - What is the difference between data, information, and knowledge?
+   - Why is this distinction important for Knowledge Management?
 
-2. **Business Value**: Using assumed values, calculate the potential ROI of a KM initiative for an organization with 500 employees where workers spend 25% of their time searching for information (assumed average salary $80,000). The KM program costs $750,000 annually and reduces search time by 50%. What other assumptions would you need to validate?
+2. **Business Value**
+   - Calculate the potential ROI of a KM initiative for an organization with 500 employees where workers spend 25% of their time searching for information (assumed average salary $80,000), the KM program costs $750,000 annually, and reduces search time by 50%.
+   - What other assumptions would you need to validate for this calculation?
 
-3. **Evolution**: Compare and contrast KM 1.0 (1990s technology focus) with KM 4.0 (2020s intelligence focus). What drove these changes?
+3. **Evolution**
+   - How would you compare KM 1.0 (1990s technology focus) with KM 4.0 (2020s intelligence focus)?
+   - What key factors drove these changes?
 
-4. **Boundaries**: A colleague says "We already have SharePoint, so we have Knowledge Management." Using Table 1.3, explain why KM is more than just a technology implementation.
+4. **Boundaries**
+   - A colleague says "We already have SharePoint, so we have Knowledge Management." Using Table 1.3, why is KM more than just a technology implementation?
+   - What elements of KM are missing from a technology-only approach?
 
-5. **Application**: You're presenting a KM business case to executives who are skeptical about the investment. Using evidence from this chapter, what three arguments would you make to demonstrate the cost of NOT investing in KM?
+5. **Application**
+   - You're presenting a KM business case to executives who are skeptical about the investment. What three arguments would you make to demonstrate the cost of NOT investing in KM?
+   - What evidence from this chapter supports each argument?
 
 ---
 

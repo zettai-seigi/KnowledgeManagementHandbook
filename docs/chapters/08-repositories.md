@@ -1285,133 +1285,34 @@ Periodic Classification Review
 
 ## Review Questions
 
-### Question 1: Repository Selection
-Your organization needs to implement a knowledge repository for IT support. You have 50 support agents, handle 10,000 incidents per month, and need integration with ServiceNow. Content includes troubleshooting procedures, how-to guides, and known errors. What repository type would be most appropriate and why?
+1. **Repository Selection for IT Support**
+   - What repository type is most appropriate for an organization with 50 support agents handling 10,000 incidents per month with ServiceNow integration?
+   - Why would a knowledge base platform be better than a wiki, DMS, or CMS for this scenario?
+   - What specific features make knowledge bases ideal for support content and self-service?
 
-**Answer:** A dedicated Knowledge Base platform would be most appropriate because:
-- Purpose-built for support scenarios with incident integration
-- Designed for high-volume usage by support teams
-- Native integration capabilities with ITSM tools like ServiceNow
-- Analytics and optimization features for self-service
-- Workflow support for Knowledge-Centered Service (KCS) methodology
-- Search and discovery optimized for support content
+2. **Repository Design Pattern for Global Organizations**
+   - What design pattern should a multinational corporation use to manage both global policies (requiring strict control) and regional team documentation (requiring flexibility)?
+   - How would a federated repository pattern address these competing requirements?
+   - What integration strategies ensure unified access across different repository types?
 
-A wiki would be too informal, a DMS too rigid with excessive workflow overhead, and a CMS focused on web content rather than support scenarios.
+3. **Search Optimization Strategy**
+   - What systematic approach would you take to diagnose and resolve a 25% zero-result rate in knowledge base searches?
+   - How do you categorize search issues between content gaps, synonym problems, and relevance issues?
+   - What specific resolution actions improve findability (synonyms, metadata, ranking adjustments)?
+   - What metrics validate that search optimization efforts are successful?
 
-### Question 2: Repository Design Pattern
-A multinational corporation needs to manage both global policies (requiring strict control and approval) and regional team documentation (requiring collaboration and flexibility). What repository design pattern should they implement?
+4. **Repository Maintenance Program**
+   - What key processes would you establish for maintaining 5,000 knowledge articles?
+   - What metrics measure content quality (freshness, quality score, coverage, duplication, obsolescence)?
+   - How do you prioritize maintenance efforts using analytics and user feedback?
+   - What should a content health dashboard display to guide curation activities?
 
-**Answer:** A Federated Repository Pattern with the following architecture:
-- Document Management System (DMS) for global policies with formal approval workflows
-- Wiki system for regional team documentation allowing flexible collaboration
-- Enterprise search layer providing unified search across both repositories
-- Common taxonomy with global categories and regional extensions
-- Single Sign-On for seamless access to both systems
-- Cross-linking standards to connect policies to supporting documentation
-
-This hybrid approach optimizes each content type while providing unified access. A single repository would compromise either control (policies) or flexibility (team docs), while this federated approach provides both.
-
-### Question 3: Search Optimization
-Your knowledge base has a 25% zero-result rate (searches with no results) and users report difficulty finding relevant articles. What systematic approach would you take to diagnose and resolve these search issues?
-
-**Answer:** Implement a search optimization workflow:
-
-1. **Diagnosis Phase:**
-   - Analyze search logs to identify queries with zero results
-   - Review failed search patterns and common terminology
-   - Examine content metadata and keywords
-   - Assess search configuration (ranking, boosting, synonyms)
-
-2. **Analysis Phase:**
-   - Categorize issues: content gaps, synonym problems, or relevance issues
-   - Identify top 20 failed queries by frequency
-   - Compare user terminology to content terminology
-
-3. **Resolution Actions:**
-   - Add synonyms for terminology mismatches (e.g., "laptop" → "notebook computer")
-   - Create content for legitimate gaps identified in failed searches
-   - Improve metadata and keywords on existing content
-   - Adjust field boosting (title, keywords more important)
-   - Enable spell correction and auto-complete
-
-4. **Validation:**
-   - Implement changes in staging environment
-   - Test with historical failed queries
-   - Measure improvement in zero-result rate
-   - Monitor click-through rates
-
-Target: Reduce zero-result rate below 10% and improve click-through rate above 60%.
-
-### Question 4: Repository Maintenance
-You are implementing a content maintenance program for a knowledge repository containing 5,000 articles. What key processes and metrics would you establish to ensure ongoing content quality?
-
-**Answer:** Establish a comprehensive maintenance program:
-
-**Processes:**
-1. **Quarterly Content Review:** Assigned owners review articles for accuracy, currency, completeness
-2. **Monthly Duplicate Detection:** Automated scanning identifies similar content for consolidation
-3. **Usage-Based Prioritization:** Analytics identify high-traffic articles for priority review
-4. **Feedback Loop:** User ratings and comments trigger review for poorly-rated articles
-5. **Archival Process:** Articles with zero usage in 12 months marked for archival
-
-**Metrics:**
-- Content freshness: % reviewed in last 90 days (target: 100%)
-- Quality score: Average user rating (target: >4.0/5.0)
-- Coverage: % of incident categories with articles (target: >90%)
-- Duplication rate: % flagged as duplicates (target: <5%)
-- Obsolescence: % not accessed in 12 months (target: <10%)
-
-**Health Dashboard:**
-- Articles requiring review (overdue dates)
-- Low-rated articles (<3.0 stars)
-- High-traffic articles with old review dates
-- Zero-result searches indicating content gaps
-- Duplicate candidates
-
-This data-driven approach ensures continuous quality improvement and resource prioritization.
-
-### Question 5: Repository Security
-Your organization handles confidential customer data in knowledge articles. Describe the security controls you would implement to ensure appropriate access and compliance with data protection regulations.
-
-**Answer:** Implement a comprehensive security framework:
-
-**1. Access Controls:**
-- Role-Based Access Control (RBAC) with defined roles: Reader, Contributor, Reviewer, Publisher, Administrator
-- Attribute-Based Access Control (ABAC) for department/project-specific content
-- Mandatory classification assignment: Public, Internal, Confidential, Restricted
-- Automated permission application based on classification level
-
-**2. Data Protection:**
-- Encryption at rest (AES-256) for all stored content
-- Encryption in transit (TLS 1.3) for all data transmission
-- Data masking for sensitive information (PII, financial data)
-- Download and export controls for confidential content
-
-**3. Audit and Compliance:**
-- Comprehensive audit logging: access, modifications, permission changes
-- Audit trail retention: 1 year for access logs, permanent for changes
-- Regular access reviews: quarterly permission audits
-- Compliance reporting: automated reports for SOX, GDPR, HIPAA
-
-**4. Authentication:**
-- Multi-factor authentication (MFA) for confidential content access
-- Single Sign-On (SSO) integration with enterprise identity provider
-- Session timeout after 30 minutes inactivity
-- Strong password policies
-
-**5. Data Loss Prevention (DLP):**
-- Content inspection to prevent sensitive data in wrong classification
-- Watermarking of confidential documents with user identity
-- Copy/paste restrictions for restricted content
-- External sharing controls with link expiration
-
-**6. Incident Response:**
-- Security incident response plan for breaches
-- Automated alerts for suspicious access patterns
-- Breach notification procedures per regulatory requirements
-- Regular security training for users
-
-This layered approach addresses regulatory requirements while maintaining usability for authorized users.
+5. **Repository Security Framework**
+   - What access control models (RBAC, ABAC) ensure appropriate access to confidential customer data?
+   - How do content classification levels (Public, Internal, Confidential, Restricted) drive security controls?
+   - What data protection measures (encryption, audit trails, DLP) meet compliance requirements?
+   - How do authentication mechanisms (MFA, SSO, session management) protect sensitive content?
+   - What incident response capabilities detect and respond to security breaches?
 
 ---
 

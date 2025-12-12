@@ -1210,178 +1210,35 @@ Based on benchmarks, set realistic targets:
 
 ## Review Questions
 
-Test your understanding of maturity assessment concepts:
+1. **KM Maturity Model Levels**
+   - What are the five levels of the KM Maturity Model?
+   - What is the primary distinguishing characteristic of each level?
+   - How does the degree of formalization progress across levels?
 
-**Question 1:** What are the five levels of the KM Maturity Model, and what is the primary distinguishing characteristic of each?
+2. **Technology vs. Culture Maturity Gap**
+   - What does it indicate when Technology maturity (Level 3) exceeds Culture maturity (Level 1)?
+   - Why would a "technology-first" implementation fail to achieve adoption?
+   - What are the priority improvement areas to address this gap?
+   - How should change management and cultural transformation be approached?
 
-<details markdown="1">
-<summary>Click to reveal answer</summary>
+3. **Skipping Maturity Levels**
+   - Is it realistic to accelerate from Level 2 (Developing) directly to Level 4 (Managed) within 12 months?
+   - Why is Level 3 (Defined) essential and cannot be skipped?
+   - What foundational capabilities must be in place before advancing to Level 4?
+   - What alternative approach would you recommend for an eager executive sponsor?
 
-**Answer:**
-1. **Level 1: Initial** - No formal KM, ad-hoc individual efforts, reactive
-2. **Level 2: Developing** - Basic practices, pilot programs, growing awareness
-3. **Level 3: Defined** - Standardized processes, formal governance, organization-wide
-4. **Level 4: Managed** - Metrics-driven, continuous monitoring and optimization, advanced capabilities
-5. **Level 5: Optimizing** - Knowledge-centric culture, innovation, competitive advantage
+4. **Leadership vs. User Perspective Disagreement**
+   - What does it mean when leadership rates maturity at Level 3 but users rate it at Level 2?
+   - Why do these different perspectives emerge?
+   - Which perspective should be weighted more heavily in the final assessment?
+   - What root causes typically lead to this disconnect?
+   - How should this disagreement influence improvement priorities?
 
-The primary distinguishing factor is the degree of formalization, systematization, and organizational embedding of KM practices.
-
-</details>
-
----
-
-**Question 2:** You've completed a maturity assessment and found your organization scores highest on Technology (Level 3) but lowest on Culture (Level 1). What does this pattern suggest, and what should be your priority improvement focus?
-
-<details markdown="1">
-<summary>Click to reveal answer</summary>
-
-**Answer:**
-
-This pattern suggests a "technology-first" implementation where tools were deployed without adequate attention to change management and cultural transformation. Despite having good technology, users aren't adopting it because sharing knowledge isn't valued, recognized, or habitual.
-
-**Priority improvement focus:**
-1. **Culture and Change Management** - Primary focus
-   - Communication campaigns highlighting KM value
-   - Recognition and rewards for sharing
-   - Executive role modeling of sharing behaviors
-   - Success stories and testimonials
-
-2. **Process Integration** - Support cultural change
-   - Embed KM into daily workflows
-   - Make sharing easier and more natural
-   - Reduce friction in contribution
-
-3. **Quick Wins** - Build momentum
-   - Find and publicize examples where KM saved time/prevented errors
-   - Celebrate early adopters
-   - Demonstrate personal benefit to users
-
-Technology alone doesn't create maturity—adoption and behavior change are essential. Don't add more technology until culture catches up.
-
-</details>
-
----
-
-**Question 3:** Your organization is at Level 2 (Developing) with successful pilots showing 50-100% ROI. The executive sponsor wants to accelerate directly to Level 4 (Managed) within 12 months. Is this realistic? What would you advise?
-
-<details markdown="1">
-<summary>Click to reveal answer</summary>
-
-**Answer:**
-
-**This is generally NOT realistic.** Skipping Level 3 (Defined) would mean deploying advanced optimization capabilities before establishing the foundational standardization, governance, and organization-wide adoption necessary to support them.
-
-**Why Level 3 can't be skipped:**
-- **Standardization** - Need consistent processes across organization before optimizing them
-- **Governance** - Must have formal accountability before mature self-sustaining governance
-- **Adoption** - Need 60-70% adoption before advanced features have impact
-- **Content** - Need substantial content library (500+ articles) before advanced analytics are meaningful
-- **Culture** - Need sharing as emerging norm before habitual behavior develops
-
-**Recommended advice:**
-1. **Accelerate, don't skip** - Move quickly through Level 3 with strong sponsorship and resources (12-15 months instead of 18)
-2. **Parallel track some Level 4 capabilities** - Can begin piloting AI/ML features while completing Level 3 deployment
-3. **Set realistic timeline** - Target Level 4 in 18-24 months total (6-9 months to Level 3, then 12-15 months to Level 4)
-4. **Focus on value** - Emphasize that solid Level 3 foundation enables sustainable Level 4 success
-
-Attempting to skip maturity levels typically results in failed implementations, user resistance, and setbacks. It's better to progress systematically.
-
-</details>
-
----
-
-**Question 4:** During your maturity assessment, you find significant disagreement between leadership (who rate maturity at Level 3) and frontline users (who rate maturity at Level 2). How do you interpret this disagreement, and how should it influence your final assessment?
-
-<details markdown="1">
-<summary>Click to reveal answer</summary>
-
-**Answer:**
-
-This disagreement is **common and significant**. It suggests:
-
-**Interpretation:**
-- **Leadership perspective** - Focuses on formal structures (strategy exists, governance defined, platform deployed)
-- **User perspective** - Focuses on actual experience (hard to find information, sharing not habitual, platform doesn't help daily work)
-- **Reality** - Organization may have Level 3 processes on paper but Level 2 execution in practice
-
-**Root causes:**
-- Disconnect between formal processes and actual practices
-- Gap between leadership communication and user experience
-- Processes defined but not embedded in workflows
-- Platform deployed but adoption/usability issues
-- Recognition exists formally but not felt by users
-
-**Impact on final assessment:**
-- **Weight user perspective heavily** - Users experience the reality of KM maturity
-- **Rate at lower level** - If users experience Level 2, that's the true maturity
-- **Identify specific gaps** - What processes exist but aren't working?
-- **Address disconnect** - Leadership needs visibility into user experience
-
-**Recommendations:**
-1. Conduct workshops bringing leadership and users together to discuss gaps
-2. Focus improvements on user experience and adoption
-3. Establish feedback mechanisms so leadership stays connected to reality
-4. Don't claim higher maturity than users experience
-5. Use this as opportunity to drive genuine improvement rather than just documentation
-
-**Final assessment:** Rate at Level 2 with note that "formal structures exist but have not achieved consistent adoption and user value."
-
-</details>
-
----
-
-**Question 5:** You're benchmarking your organization's KM maturity against industry standards. Your organization (5,000 employees, financial services) has these metrics: 65% adoption, 800 articles, 3.7 quality score, 70% FCR, 200% ROI. Based on the benchmark tables in this chapter, what maturity level does this performance suggest, and what should be your next priorities?
-
-<details markdown="1">
-<summary>Click to reveal answer</summary>
-
-**Answer:**
-
-**Performance analysis against benchmarks:**
-
-| Metric | Your Performance | Level 3 Benchmark | Level 4 Benchmark | Assessment |
-|--------|-----------------|-------------------|-------------------|------------|
-| Adoption Rate | 65% | 60-70% | 80-85% | Solid Level 3 |
-| Article Count | 800 | 500-2,000 | 2,000-5,000 | Level 3 |
-| Quality Score | 3.7 | 3.5-4.0 | 4.0-4.5 | Mid-Level 3 |
-| FCR | 70% | 65-75% | 75-85% | Mid-Level 3 |
-| ROI | 200% | 200-300% | 300-400% | Low-Level 3 |
-
-**Overall Assessment: Solid Level 3 (Defined)**
-
-You're performing consistently in the Level 3 range across metrics, typical for a financial services organization of your size. You're ready to begin planning progression to Level 4.
-
-**Next priorities for Level 3 → Level 4:**
-
-**Priority 1: Advanced Capabilities (Technology)**
-- Deploy AI-powered search to improve findability
-- Implement intelligent recommendations
-- Add predictive analytics
-- Goal: Move search success rate to 90%+, enable personalization
-
-**Priority 2: Quality Improvement (Content)**
-- Raise quality bar from 3.7 to 4.0+
-- Enhance review processes
-- Provide better author training
-- Implement quality automation
-
-**Priority 3: Adoption Growth (Culture)**
-- Push adoption from 65% to 80%+
-- Focus on remaining holdouts
-- Improve integration with daily workflows
-- Strengthen recognition programs
-
-**Priority 4: ROI Enhancement (Measurement)**
-- Expand ROI measurement to capture more value
-- Demonstrate impact on business outcomes
-- Build case for Level 4 investment
-- Target 300-400% ROI
-
-**Timeline:** 12-18 months to reach solid Level 4 performance across all dimensions.
-
-**Industry context:** Financial services average is Level 3.0, so you're performing at or slightly above average. To be a leader in your industry, target Level 4 within 18-24 months.
-
-</details>
+5. **Benchmarking and Performance Analysis**
+   - Given metrics (65% adoption, 800 articles, 3.7 quality score, 70% FCR, 200% ROI), what maturity level does this suggest?
+   - How do these metrics compare to Level 3 and Level 4 benchmarks?
+   - What are the priority improvement areas to progress from Level 3 to Level 4?
+   - What timeline would be realistic for achieving Level 4 performance?
 
 ---
 

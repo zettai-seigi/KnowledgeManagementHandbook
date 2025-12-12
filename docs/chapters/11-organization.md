@@ -1842,38 +1842,36 @@ TAXONOMY HEALTH
 
 ## Review Questions
 
-Test your understanding of knowledge organization and classification:
+1. **Taxonomy Design**
+   - What primary organizational scheme (hierarchical, faceted, or hybrid) would you choose for 5,000 technical support articles covering 12 products across 3 platforms, and why?
+   - What top-level categories would you establish and what is the rationale for each?
+   - What hierarchy depth would you recommend and how would you balance specificity with simplicity?
+   - How would you validate the taxonomy before full deployment through testing and pilot programs?
 
-1. **Taxonomy Design**: Your organization is implementing a new knowledge management system. You have 5,000 technical support articles covering 12 different products across 3 technology platforms. Users include end users, IT support staff, and system administrators. Design a taxonomy structure that accommodates this content. Specify:
-   - The primary organizational scheme (hierarchical, faceted, or hybrid)
-   - Top-level categories and rationale for each
-   - Recommended hierarchy depth
-   - How you would validate the taxonomy before full deployment
+2. **Metadata Strategy**
+   - Which five metadata elements would you make required and why is each essential for knowledge management?
+   - Which five metadata elements would you make recommended and what value does each provide?
+   - What optional metadata elements would you include for specific content types like policies or procedures?
+   - How would you balance comprehensive metadata capture with ease of content creation to encourage adoption?
 
-2. **Metadata Strategy**: You are defining the metadata schema for a knowledge base. The content includes procedures, troubleshooting guides, policies, and reference documentation. Identify:
-   - Five required metadata elements and justify why each is required
-   - Five recommended metadata elements and explain their value
-   - Three optional metadata elements for specific content types
-   - How you would balance metadata comprehensiveness with ease of content creation
+3. **Findability Improvement**
+   - What analysis methods would you use to identify root causes when 12% of searches return zero results?
+   - What specific improvements would you implement to address content discoverability issues?
+   - Which metrics would you track to measure the effectiveness of findability improvements?
+   - What timeline and priorities would you establish for implementing findability enhancements?
 
-3. **Findability Improvement**: Search analytics show that 12% of searches return zero results, and users report difficulty finding relevant content even when it exists. Describe a systematic approach to improving findability including:
-   - Analysis methods to identify root causes
-   - Specific improvements to implement
-   - Metrics to track improvement effectiveness
-   - Timeline and priorities for implementation
+4. **Hybrid Organization**
+   - What are the specific roles of structured taxonomy versus flexible tagging in a hybrid approach?
+   - What governance processes would you establish to maintain quality in both taxonomy and tagging?
+   - How would you prevent tag proliferation while maintaining the flexibility that makes tagging valuable?
+   - What methods would you use to identify and migrate useful tags into the controlled taxonomy over time?
 
-4. **Hybrid Organization**: Explain how you would implement a hybrid approach that combines structured taxonomy with flexible tagging. Address:
-   - The specific role of taxonomy vs. tags
-   - Governance processes to maintain quality
-   - How to prevent tag proliferation while maintaining flexibility
-   - Methods to migrate useful tags into the controlled taxonomy over time
-
-5. **Change Management**: Your organization is undergoing a major restructuring that requires significant taxonomy changes. Five top-level categories need to be merged into three, affecting 2,000+ knowledge articles. Describe your change management approach including:
-   - Stakeholder communication plan
-   - Content migration strategy
-   - User training approach
-   - Success metrics to validate the change
-   - Timeline and resource requirements
+5. **Change Management**
+   - How would you communicate taxonomy changes to stakeholders when merging five categories into three?
+   - What content migration strategy would you use for 2,000+ affected knowledge articles?
+   - What user training approach would you implement to ensure smooth transition to the new structure?
+   - What success metrics would you establish to validate that the taxonomy change achieved its goals?
+   - What timeline and resource requirements would you estimate for completing the restructuring?
 
 ---
 

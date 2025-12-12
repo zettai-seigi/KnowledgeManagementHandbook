@@ -1510,49 +1510,55 @@ This policy will be reviewed semi-annually by the KM Council and revised as need
 
 ## Review Questions
 
-Test your understanding of policies and standards:
+1. **Policy vs. Standard**
+   - What is the difference between a policy and a standard in Knowledge Management?
+   - How do policies establish boundaries while standards provide specifications?
+   - Can you provide an example showing how a policy requirement is implemented through a standard?
 
-1. **Question:** What is the difference between a policy and a standard in Knowledge Management?
+2. **Policy Hierarchy**
+   - What are the four levels of the Knowledge Management policy hierarchy?
+   - What is the purpose and approval authority for each level?
+   - How do the levels relate to each other in terms of strategic vs. operational guidance?
 
-   **Answer:** A policy defines what must or must not be done, establishing rules and requirements. A standard specifies how something should be done, providing specific criteria, specifications, and methods. For example, a policy might require that all knowledge articles meet quality standards, while the standard would define the specific quality criteria (accuracy >95%, readability grade 8-10, etc.) and how they are measured.
+3. **Standards Development Process**
+   - What are the five phases of the Standards Development Process?
+   - Why is each phase important for successful standard implementation?
+   - What triggers the need for a new standard, and how is that need assessed?
 
-2. **Question:** Describe the four levels of the Knowledge Management policy hierarchy and give an example of each.
+4. **Core KM Policies Integration**
+   - How do the six core KM policies integrate with each other?
+   - What are the key integration points between creation, quality, access, retention, security, and sharing policies?
+   - Why is policy integration important for effective Knowledge Management?
 
-   **Answer:**
-   - Level 1 (Enterprise KM Policy): Master policy defining overall KM strategy and scope
-   - Level 2 (Supporting Policies): Domain-specific policies like Knowledge Creation Policy, Knowledge Quality Policy
-   - Level 3 (Standards & Guidelines): Content standards, metadata standards, quality criteria specifications
-   - Level 4 (Procedures & Instructions): Step-by-step operational procedures, templates, checklists for daily activities
+5. **Compliance Matrix**
+   - What is the purpose of a compliance matrix in Knowledge Management?
+   - What key elements should a compliance matrix include?
+   - How does a compliance matrix help organizations manage multiple regulatory frameworks simultaneously?
 
-3. **Question:** What are the five phases of the Standards Development Process, and why is each important?
+6. **Roles and Responsibilities**
+   - What are the key differences between a Knowledge Owner and a Knowledge Steward?
+   - What are the typical contribution expectations for different roles?
+   - How does the Chief Knowledge Officer role differ from the KM Program Manager role?
 
-   **Answer:**
-   - Identify Need: Ensures standards address real business needs and gaps
-   - Draft Standard: Creates detailed requirements with stakeholder input
-   - Review and Test: Validates feasibility and usability before implementation
-   - Approve and Publish: Obtains formal approval and communicates to users
-   - Monitor and Maintain: Ensures ongoing relevance and effectiveness through continuous improvement
+7. **Enforcement Mechanisms**
+   - What types of automated controls can be used to enforce KM policies?
+   - When should manual reviews be used instead of or in addition to automated controls?
+   - How should organizations handle different severity levels of policy violations?
 
-4. **Question:** Explain how the six core KM policies integrate with each other. Provide at least three integration points.
+8. **Compliance Monitoring**
+   - What are the key components of an effective compliance monitoring framework?
+   - What metrics should be tracked to measure policy compliance?
+   - How often should different types of compliance audits be conducted?
 
-   **Answer:** The six core policies integrate at multiple points:
-   - Creation + Quality: Content created must meet quality standards before publication
-   - Access + Security: Access controls implement security policy requirements
-   - Retention + Security: Archived content maintains security protections throughout lifecycle
-   - Quality + Sharing: Only quality-approved content can be shared externally
-   - Creation + Retention: Creation metadata supports future retention decisions
-   - Access + Sharing: Sharing permissions must align with access classifications
+9. **Audit Preparation**
+   - What activities should be completed during internal audit preparation?
+   - What additional considerations apply when preparing for external audits?
+   - How should organizations respond to and remediate audit findings?
 
-5. **Question:** What is the purpose of a compliance matrix, and what key elements should it include?
-
-   **Answer:** A compliance matrix tracks how Knowledge Management activities comply with multiple regulatory and standards frameworks simultaneously. Key elements include:
-   - KM activities and processes
-   - Internal policy requirements
-   - External framework requirements (ISO 30401, ITIL 4, GDPR, ISO 27001, etc.)
-   - Compliance status for each requirement
-   - Evidence or references supporting compliance
-   - Gaps or remediation needed
-   This enables organizations to efficiently manage compliance across multiple frameworks and identify overlapping requirements.
+10. **Content and Metadata Standards**
+    - What are the required components of a well-structured knowledge article?
+    - What metadata fields are essential for effective knowledge management?
+    - How do content structure standards support both quality and findability?
 
 ---
 

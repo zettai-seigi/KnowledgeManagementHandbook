@@ -890,15 +890,29 @@ Applying multiple frameworks to incident management knowledge:
 
 ## Review Questions
 
-1. **SECI Application:** Describe how your organization could apply all four SECI modes to improve onboarding of new IT staff. Provide specific examples of activities for each mode.
+1. **SECI Application**
+   - How could your organization apply all four SECI modes to improve onboarding of new IT staff?
+   - What specific activities would you implement for each mode (Socialization, Externalization, Combination, Internalization)?
 
-2. **Ba Design:** Choose one of the four Ba types (Originating, Dialoguing, Systemizing, or Exercising) and design a specific implementation for your service desk environment. What physical/virtual spaces, cultural elements, and practices would you include?
+2. **Ba Design**
+   - Which of the four Ba types (Originating, Dialoguing, Systemizing, or Exercising) would you choose for your service desk environment?
+   - What physical or virtual spaces would you include in your design?
+   - What cultural elements and practices would enable effective knowledge creation in your chosen Ba?
 
-3. **Framework Selection:** Your organization is a mid-sized financial services company beginning a formal KM initiative. You have IT operations, customer support, and back-office functions. Which framework combination would you recommend and why? Justify your selection with specific organizational characteristics.
+3. **Framework Selection**
+   - Your organization is a mid-sized financial services company beginning a formal KM initiative with IT operations, customer support, and back-office functions. Which framework combination would you recommend?
+   - How do specific organizational characteristics justify your framework selection?
+   - What are the key integration points between the frameworks you selected?
 
-4. **KCS vs. Traditional Documentation:** Compare and contrast KCS methodology with traditional "dedicated technical writer" approaches to knowledge documentation. Under what circumstances would each approach be more appropriate?
+4. **KCS vs. Traditional Documentation**
+   - What are the key differences between KCS methodology and traditional "dedicated technical writer" approaches to knowledge documentation?
+   - What are the advantages and disadvantages of each approach?
+   - Under what circumstances would each approach be more appropriate?
 
-5. **Integration Challenge:** You have been asked to integrate SECI theory, KCS methodology, and ITIL 4 KM practice for your organization's problem management process. Create a detailed workflow showing how these three frameworks would work together from problem identification through knowledge creation and reuse.
+5. **Integration Challenge**
+   - How would you integrate SECI theory, KCS methodology, and ITIL 4 KM practice for your organization's problem management process?
+   - What would the detailed workflow look like from problem identification through knowledge creation?
+   - How would knowledge reuse be facilitated in your integrated approach?
 
 ---
 
