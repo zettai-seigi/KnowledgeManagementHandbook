@@ -972,17 +972,25 @@ Example: Gap - Employees don't share knowledge
 
 Prioritize gaps using a 2x2 matrix:
 
-```
-        HIGH IMPACT
-             │
-    Quick   │   Strategic
-     Wins   │   Priorities
-             │
-───────────┼───────────── LOW EFFORT → HIGH EFFORT
-             │
-   Backlog  │   Low
-             │   Priority
-        LOW IMPACT
+```mermaid
+quadrantChart
+    title Gap Prioritization Matrix
+    x-axis Low Effort --> High Effort
+    y-axis Low Impact --> High Impact
+    quadrant-1 Strategic Priorities
+    quadrant-2 Quick Wins
+    quadrant-3 Backlog
+    quadrant-4 Low Priority
+    Executive sponsor: [0.20, 0.90]
+    Awareness campaign: [0.25, 0.75]
+    Quick win demos: [0.30, 0.80]
+    Platform deployment: [0.80, 0.95]
+    Content migration: [0.75, 0.85]
+    Process standardization: [0.60, 0.70]
+    Minor fixes: [0.15, 0.25]
+    Documentation updates: [0.25, 0.30]
+    Legacy system cleanup: [0.85, 0.20]
+    Full audit: [0.70, 0.25]
 ```
 
 **Quick Wins (High Impact, Low Effort):**

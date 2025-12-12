@@ -131,28 +131,34 @@ The SECI model's true power lies not in individual modes but in the **Knowledge 
 *Caption:* The Knowledge Spiral shows how knowledge expands from individual to group to organizational level through continuous SECI cycles
 *Position:* Place after this paragraph
 
+```mermaid
+quadrantChart
+    title SECI Knowledge Conversion Model
+    x-axis Tacit Knowledge --> Explicit Knowledge
+    y-axis Explicit Knowledge --> Tacit Knowledge
+    quadrant-1 EXTERNALIZATION
+    quadrant-2 SOCIALIZATION
+    quadrant-3 INTERNALIZATION
+    quadrant-4 COMBINATION
+    Mentoring: [0.25, 0.75]
+    Observation: [0.15, 0.85]
+    Brainstorming: [0.35, 0.65]
+    Documentation: [0.75, 0.85]
+    Best Practices: [0.85, 0.75]
+    Templates: [0.65, 0.65]
+    Training: [0.25, 0.25]
+    Practice: [0.15, 0.35]
+    Simulation: [0.35, 0.15]
+    Knowledge Base: [0.85, 0.25]
+    Dashboards: [0.75, 0.35]
+    Integration: [0.65, 0.15]
 ```
-           Tacit                    Explicit
-    ┌────────────────────┬────────────────────┐
-    │                    │                    │
-    │   SOCIALIZATION    │   EXTERNALIZATION  │
-    │                    │                    │
-    │   (Tacit → Tacit)  │   (Tacit → Explicit)│
-Tacit│                    │                    │
-    │    Empathizing     │    Articulating    │
-    │                    │                    │
-    ├────────────────────┼────────────────────┤
-    │                    │                    │
-    │   INTERNALIZATION  │    COMBINATION     │
-    │                    │                    │
-    │(Explicit → Tacit)  │(Explicit → Explicit)│
-Explicit                  │                    │
-    │    Embodying       │    Connecting      │
-    │                    │                    │
-    └────────────────────┴────────────────────┘
-              ⟲ Knowledge Spiral ⟲
-       Individual → Group → Organization
-```
+
+**Quadrant Summary:**
+- **Socialization (Tacit → Tacit):** Empathizing - shared experiences, mentoring, observation
+- **Externalization (Tacit → Explicit):** Articulating - documentation, best practices, templates
+- **Combination (Explicit → Explicit):** Connecting - knowledge bases, dashboards, integration
+- **Internalization (Explicit → Tacit):** Embodying - training, practice, simulation
 
 #### The Spiral Process
 

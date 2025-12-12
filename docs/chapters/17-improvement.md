@@ -1035,18 +1035,25 @@ Prioritization ensures resources focus on improvements with the greatest impact 
 
 **Improvement Opportunity Matrix**
 
-```
-        HIGH IMPACT
-             │
-   Quick    │    Strategic
-   Wins     │    Initiatives
-            │
-  ─────────┼─────────────────► HIGH EFFORT
-            │
-   Low      │    Avoid/
-   Priority │    Reconsider
-            │
-        LOW IMPACT
+```mermaid
+quadrantChart
+    title Improvement Opportunity Matrix
+    x-axis Low Effort --> High Effort
+    y-axis Low Impact --> High Impact
+    quadrant-1 Strategic Initiatives
+    quadrant-2 Quick Wins
+    quadrant-3 Low Priority
+    quadrant-4 Avoid or Reconsider
+    Search optimization: [0.25, 0.85]
+    Template updates: [0.15, 0.70]
+    Tagging cleanup: [0.35, 0.75]
+    AI implementation: [0.85, 0.90]
+    Platform migration: [0.75, 0.80]
+    Process redesign: [0.65, 0.70]
+    Minor UI tweaks: [0.20, 0.25]
+    Report formatting: [0.30, 0.35]
+    Legacy cleanup: [0.80, 0.20]
+    Full rebranding: [0.90, 0.30]
 ```
 
 **Quadrant Definitions:**
