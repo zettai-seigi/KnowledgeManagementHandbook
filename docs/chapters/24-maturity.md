@@ -1214,7 +1214,7 @@ Test your understanding of maturity assessment concepts:
 
 **Question 1:** What are the five levels of the KM Maturity Model, and what is the primary distinguishing characteristic of each?
 
-<details>
+<details markdown="1">
 <summary>Click to reveal answer</summary>
 
 **Answer:**
@@ -1225,13 +1225,14 @@ Test your understanding of maturity assessment concepts:
 5. **Level 5: Optimizing** - Knowledge-centric culture, innovation, competitive advantage
 
 The primary distinguishing factor is the degree of formalization, systematization, and organizational embedding of KM practices.
+
 </details>
 
 ---
 
 **Question 2:** You've completed a maturity assessment and found your organization scores highest on Technology (Level 3) but lowest on Culture (Level 1). What does this pattern suggest, and what should be your priority improvement focus?
 
-<details>
+<details markdown="1">
 <summary>Click to reveal answer</summary>
 
 **Answer:**
@@ -1256,13 +1257,14 @@ This pattern suggests a "technology-first" implementation where tools were deplo
    - Demonstrate personal benefit to users
 
 Technology alone doesn't create maturity—adoption and behavior change are essential. Don't add more technology until culture catches up.
+
 </details>
 
 ---
 
 **Question 3:** Your organization is at Level 2 (Developing) with successful pilots showing 50-100% ROI. The executive sponsor wants to accelerate directly to Level 4 (Managed) within 12 months. Is this realistic? What would you advise?
 
-<details>
+<details markdown="1">
 <summary>Click to reveal answer</summary>
 
 **Answer:**
@@ -1283,13 +1285,14 @@ Technology alone doesn't create maturity—adoption and behavior change are esse
 4. **Focus on value** - Emphasize that solid Level 3 foundation enables sustainable Level 4 success
 
 Attempting to skip maturity levels typically results in failed implementations, user resistance, and setbacks. It's better to progress systematically.
+
 </details>
 
 ---
 
 **Question 4:** During your maturity assessment, you find significant disagreement between leadership (who rate maturity at Level 3) and frontline users (who rate maturity at Level 2). How do you interpret this disagreement, and how should it influence your final assessment?
 
-<details>
+<details markdown="1">
 <summary>Click to reveal answer</summary>
 
 **Answer:**
@@ -1322,13 +1325,14 @@ This disagreement is **common and significant**. It suggests:
 5. Use this as opportunity to drive genuine improvement rather than just documentation
 
 **Final assessment:** Rate at Level 2 with note that "formal structures exist but have not achieved consistent adoption and user value."
+
 </details>
 
 ---
 
 **Question 5:** You're benchmarking your organization's KM maturity against industry standards. Your organization (5,000 employees, financial services) has these metrics: 65% adoption, 800 articles, 3.7 quality score, 70% FCR, 200% ROI. Based on the benchmark tables in this chapter, what maturity level does this performance suggest, and what should be your next priorities?
 
-<details>
+<details markdown="1">
 <summary>Click to reveal answer</summary>
 
 **Answer:**
@@ -1376,6 +1380,7 @@ You're performing consistently in the Level 3 range across metrics, typical for 
 **Timeline:** 12-18 months to reach solid Level 4 performance across all dimensions.
 
 **Industry context:** Financial services average is Level 3.0, so you're performing at or slightly above average. To be a leader in your industry, target Level 4 within 18-24 months.
+
 </details>
 
 ---
