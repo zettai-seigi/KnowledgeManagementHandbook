@@ -35,11 +35,32 @@ After completing this chapter, you will be able to:
 
 ### The Four-Phase Model
 
-```
-Phase 1: Foundation      Phase 2: Build         Phase 3: Scale         Phase 4: Optimize
-(Months 1-6)            (Months 7-12)          (Months 13-24)         (Months 25-36)
-      ↓                       ↓                      ↓                      ↓
-Prepare + Pilot    →    Validate + Expand  →   Deploy + Integrate →   Mature + Improve
+```mermaid
+flowchart LR
+    subgraph P1["Phase 1: Foundation<br/>(Months 1-6)"]
+        A["Prepare + Pilot"]
+    end
+
+    subgraph P2["Phase 2: Build<br/>(Months 7-12)"]
+        B["Validate + Expand"]
+    end
+
+    subgraph P3["Phase 3: Scale<br/>(Months 13-24)"]
+        C["Deploy + Integrate"]
+    end
+
+    subgraph P4["Phase 4: Optimize<br/>(Months 25-36)"]
+        D["Mature + Improve"]
+    end
+
+    P1 --> P2
+    P2 --> P3
+    P3 --> P4
+
+    style P1 fill:#e3f2fd
+    style P2 fill:#e8f5e9
+    style P3 fill:#fff3e0
+    style P4 fill:#f3e5f5
 ```
 
 This roadmap aligns with Chapter 4's strategic framework and provides a pathway to achieve Level 4-5 maturity as defined in Chapter 24.
@@ -78,22 +99,21 @@ This roadmap aligns with Chapter 4's strategic framework and provides a pathway 
 
 **Governance Structure**
 
-```
-┌─────────────────────────────────┐
-│   KM Steering Committee         │
-│   (Strategic Direction)         │
-└──────────┬──────────────────────┘
-           ↓
-┌─────────────────────────────────┐
-│   KM Program Office             │
-│   (Implementation & Coordination)│
-└──────────┬──────────────────────┘
-           ↓
-┌──────────────────┬──────────────┐
-│  Knowledge       │  Domain      │
-│  Managers        │  Owners      │
-│  (Operations)    │  (Content)   │
-└──────────────────┴──────────────┘
+```mermaid
+flowchart TB
+    SC["KM Steering Committee<br/>(Strategic Direction)"]
+    PO["KM Program Office<br/>(Implementation & Coordination)"]
+    KM["Knowledge Managers<br/>(Operations)"]
+    DO["Domain Owners<br/>(Content)"]
+
+    SC --> PO
+    PO --> KM
+    PO --> DO
+
+    style SC fill:#e3f2fd
+    style PO fill:#e8f5e9
+    style KM fill:#fff3e0
+    style DO fill:#fff3e0
 ```
 
 **Key Roles**
@@ -230,33 +250,25 @@ This roadmap aligns with Chapter 4's strategic framework and provides a pathway 
 
 #### Continuous Improvement Framework
 
-```
-┌────────────────────────────────────────┐
-│         Measure Performance            │
-│    (Metrics, feedback, analytics)      │
-└──────────────┬─────────────────────────┘
-               ↓
-┌────────────────────────────────────────┐
-│        Identify Opportunities          │
-│   (Gaps, issues, enhancement ideas)    │
-└──────────────┬─────────────────────────┘
-               ↓
-┌────────────────────────────────────────┐
-│        Prioritize Initiatives          │
-│   (Impact vs. effort, business value)  │
-└──────────────┬─────────────────────────┘
-               ↓
-┌────────────────────────────────────────┐
-│        Implement Changes               │
-│   (Agile sprints, rapid iterations)    │
-└──────────────┬─────────────────────────┘
-               ↓
-┌────────────────────────────────────────┐
-│        Validate Results                │
-│   (A/B testing, metrics tracking)      │
-└──────────────┬─────────────────────────┘
-               ↓
-          (Loop back to Measure)
+```mermaid
+flowchart TD
+    A["Measure Performance<br/>(Metrics, feedback, analytics)"]
+    B["Identify Opportunities<br/>(Gaps, issues, enhancement ideas)"]
+    C["Prioritize Initiatives<br/>(Impact vs. effort, business value)"]
+    D["Implement Changes<br/>(Agile sprints, rapid iterations)"]
+    E["Validate Results<br/>(A/B testing, metrics tracking)"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> A
+
+    style A fill:#e3f2fd
+    style B fill:#e8f5e9
+    style C fill:#fff3e0
+    style D fill:#f3e5f5
+    style E fill:#fce4ec
 ```
 
 ---
@@ -536,18 +548,38 @@ Quick wins provide:
 
 **Stakeholder Influence Network**
 
-```
-           CEO/CFO
-              ↓
-      ┌──────┴──────┐
-      ↓              ↓
-    CIO/CTO    Business Unit Leaders
-      ↓              ↓
-      ├──────┬───────┤
-      ↓      ↓       ↓
-   IT Mgmt  KM Team  Dept Mgrs
-      ↓      ↓       ↓
-   End Users ↔ Champions ↔ Knowledge Workers
+```mermaid
+flowchart TD
+    CEO["CEO/CFO"]
+    CIO["CIO/CTO"]
+    BU["Business Unit Leaders"]
+    IT["IT Mgmt"]
+    KM["KM Team"]
+    DM["Dept Mgrs"]
+    EU["End Users"]
+    CH["Champions"]
+    KW["Knowledge Workers"]
+
+    CEO --> CIO
+    CEO --> BU
+    CIO --> IT
+    CIO --> KM
+    BU --> DM
+    IT --> EU
+    KM --> CH
+    DM --> KW
+    EU <--> CH
+    CH <--> KW
+
+    style CEO fill:#e3f2fd
+    style CIO fill:#e8f5e9
+    style BU fill:#e8f5e9
+    style IT fill:#fff3e0
+    style KM fill:#fff3e0
+    style DM fill:#fff3e0
+    style EU fill:#fce4ec
+    style CH fill:#f3e5f5
+    style KW fill:#fce4ec
 ```
 
 ### Stakeholder Engagement Plan
@@ -624,32 +656,25 @@ Quick wins provide:
 
 **Resistance Resolution Process**
 
-```
-Step 1: Identify Resistance
-• Monitor adoption metrics
-• Gather feedback
-• Observe behaviors
-        ↓
-Step 2: Understand Root Cause
-• Conduct interviews
-• Analyze patterns
-• Segment resistors
-        ↓
-Step 3: Select Response Strategy
-• Educate (lack of awareness)
-• Involve (lack of participation)
-• Support (lack of ability)
-• Negotiate (conflicting interests)
-        ↓
-Step 4: Implement Response
-• Execute chosen strategy
-• Provide resources
-• Monitor progress
-        ↓
-Step 5: Follow Up
-• Measure outcomes
-• Adjust approach
-• Recognize progress
+```mermaid
+flowchart TD
+    S1["Step 1: Identify Resistance<br/>• Monitor adoption metrics<br/>• Gather feedback<br/>• Observe behaviors"]
+    S2["Step 2: Understand Root Cause<br/>• Conduct interviews<br/>• Analyze patterns<br/>• Segment resistors"]
+    S3["Step 3: Select Response Strategy<br/>• Educate (lack of awareness)<br/>• Involve (lack of participation)<br/>• Support (lack of ability)<br/>• Negotiate (conflicting interests)"]
+    S4["Step 4: Implement Response<br/>• Execute chosen strategy<br/>• Provide resources<br/>• Monitor progress"]
+    S5["Step 5: Follow Up<br/>• Measure outcomes<br/>• Adjust approach<br/>• Recognize progress"]
+
+    S1 --> S2
+    S2 --> S3
+    S3 --> S4
+    S4 --> S5
+    S5 -.->|Iterate as needed| S1
+
+    style S1 fill:#fce4ec
+    style S2 fill:#fff3e0
+    style S3 fill:#e8f5e9
+    style S4 fill:#e3f2fd
+    style S5 fill:#f3e5f5
 ```
 
 ---

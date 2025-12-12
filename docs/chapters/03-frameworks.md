@@ -301,20 +301,20 @@ The Evolve Loop ensures the KCS process and content remain healthy and valuable:
 
 **Article Lifecycle Transitions:**
 
-```
-┌─────────────┐      ┌──────────────┐      ┌─────────────┐
-│    WIP      │ ──→  │     Not      │ ──→  │  Validated  │
-│   (Draft)   │      │  Validated   │      │  (Internal) │
-└─────────────┘      └──────────────┘      └─────────────┘
-                                                   ↓
-                                            ┌─────────────┐
-                                            │  Validated  │
-                                            │ (External)  │
-                                            └─────────────┘
-                                                   ↓
-                                            ┌─────────────┐
-                                            │  Archived   │
-                                            └─────────────┘
+```mermaid
+stateDiagram-v2
+    [*] --> WIP: Create article
+    WIP --> NotValidated: Submit for review
+    NotValidated --> ValidatedInternal: Internal validation
+    ValidatedInternal --> ValidatedExternal: Approve for customers
+    ValidatedExternal --> Archived: Retire article
+    ValidatedInternal --> Archived: Retire article
+
+    WIP: WIP (Draft)
+    NotValidated: Not Validated
+    ValidatedInternal: Validated (Internal)
+    ValidatedExternal: Validated (External)
+    Archived: Archived
 ```
 
 ### KCS Roles

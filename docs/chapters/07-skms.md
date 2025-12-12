@@ -75,26 +75,32 @@ The SKMS serves as the nervous system of IT service management, enabling:
 
 The SKMS is structured in four hierarchical layers, each building upon the layer below. This architecture ensures separation of concerns while enabling seamless knowledge flow from raw data to actionable insights.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│            LAYER 4: PRESENTATION LAYER                      │
-│  (Portals, Dashboards, Reporting, User Interfaces)         │
-└─────────────────────────────────────────────────────────────┘
-                          ↕
-┌─────────────────────────────────────────────────────────────┐
-│            LAYER 3: KNOWLEDGE LAYER                         │
-│  (Knowledge Bases, KEDB, Decision Support, Lessons Learned) │
-└─────────────────────────────────────────────────────────────┘
-                          ↕
-┌─────────────────────────────────────────────────────────────┐
-│            LAYER 2: INFORMATION LAYER                       │
-│  (CMS, CMDB, DML, Service Catalog, SLAs, Contracts)        │
-└─────────────────────────────────────────────────────────────┘
-                          ↕
-┌─────────────────────────────────────────────────────────────┐
-│            LAYER 1: DATA LAYER                              │
-│  (Raw Data, Logs, Events, Transactions, Metrics)           │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph L4["LAYER 4: PRESENTATION LAYER"]
+        P4["Portals, Dashboards, Reporting, User Interfaces"]
+    end
+
+    subgraph L3["LAYER 3: KNOWLEDGE LAYER"]
+        P3["Knowledge Bases, KEDB, Decision Support, Lessons Learned"]
+    end
+
+    subgraph L2["LAYER 2: INFORMATION LAYER"]
+        P2["CMS, CMDB, DML, Service Catalog, SLAs, Contracts"]
+    end
+
+    subgraph L1["LAYER 1: DATA LAYER"]
+        P1["Raw Data, Logs, Events, Transactions, Metrics"]
+    end
+
+    L1 <--> L2
+    L2 <--> L3
+    L3 <--> L4
+
+    style L4 fill:#e1f5fe
+    style L3 fill:#e8f5e9
+    style L2 fill:#fff3e0
+    style L1 fill:#fce4ec
 ```
 
 **Table 7.1: SKMS Four-Layer Components**
@@ -830,42 +836,41 @@ Close Known Error (if all instances resolved)
 
 **Figure 7.2: CMDB-SKMS Integration Model**
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    SKMS Knowledge Layer                     │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │  Knowledge   │  │     KEDB     │  │   Lessons    │     │
-│  │     Base     │  │              │  │   Learned    │     │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘     │
-│         │                 │                  │              │
-│         └─────────────────┼──────────────────┘              │
-│                           │                                 │
-└───────────────────────────┼─────────────────────────────────┘
-                            ↕
-┌───────────────────────────┼─────────────────────────────────┐
-│              SKMS Information Layer (CMDB)                  │
-│                           │                                 │
-│  ┌────────────────────────┴─────────────────────────┐      │
-│  │          Configuration Items (CIs)               │      │
-│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐         │      │
-│  │  │Hardware │  │Software │  │Services │         │      │
-│  │  │  CIs    │  │  CIs    │  │  CIs    │         │      │
-│  │  └────┬────┘  └────┬────┘  └────┬────┘         │      │
-│  │       │            │            │               │      │
-│  │       └────────────┼────────────┘               │      │
-│  │                    │                            │      │
-│  │        CI Relationships & Dependencies          │      │
-│  │        (Depends On, Part Of, Runs On, etc.)    │      │
-│  └──────────────────────────────────────────────────┘      │
-│                           ↕                                 │
-│  ┌─────────────────────────────────────────────────┐       │
-│  │         ITSM Process Integration                │       │
-│  │  ├── Incidents (affected CIs)                   │       │
-│  │  ├── Problems (root cause analysis)             │       │
-│  │  ├── Changes (impact assessment)                │       │
-│  │  └── Service Requests (CI provisioning)         │       │
-│  └─────────────────────────────────────────────────┘       │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph KL["SKMS Knowledge Layer"]
+        direction LR
+        KB["Knowledge<br/>Base"]
+        KEDB["KEDB"]
+        LL["Lessons<br/>Learned"]
+    end
+
+    subgraph IL["SKMS Information Layer (CMDB)"]
+        subgraph CIs["Configuration Items (CIs)"]
+            direction LR
+            HW["Hardware<br/>CIs"]
+            SW["Software<br/>CIs"]
+            SVC["Services<br/>CIs"]
+        end
+
+        REL["CI Relationships & Dependencies<br/>(Depends On, Part Of, Runs On, etc.)"]
+
+        subgraph ITSM["ITSM Process Integration"]
+            INC["Incidents (affected CIs)"]
+            PRB["Problems (root cause analysis)"]
+            CHG["Changes (impact assessment)"]
+            SR["Service Requests (CI provisioning)"]
+        end
+    end
+
+    KL <--> IL
+    CIs --> REL
+    REL <--> ITSM
+
+    style KL fill:#e8f5e9
+    style IL fill:#fff3e0
+    style CIs fill:#e3f2fd
+    style ITSM fill:#fce4ec
 ```
 
 ### Configuration Documentation
@@ -886,28 +891,30 @@ Close Known Error (if all instances resolved)
 
 **Impact Assessment Process:**
 
-```
-Change Request Received
-       ↓
-Identify Primary Affected CIs
-       ↓
-Query CMDB for Relationships
-       ↓
-Traverse Dependency Graph
-       ↓
-Identify All Dependent CIs
-       ↓
-Determine Affected Services
-       ↓
-Assess User/Business Impact
-       ↓
-Retrieve Known Errors (KEDB)
-       ↓
-Review Historical Changes
-       ↓
-Generate Impact Report
-       ↓
-Risk Assessment & Approval
+```mermaid
+flowchart TD
+    A["Change Request Received"] --> B["Identify Primary Affected CIs"]
+    B --> C["Query CMDB for Relationships"]
+    C --> D["Traverse Dependency Graph"]
+    D --> E["Identify All Dependent CIs"]
+    E --> F["Determine Affected Services"]
+    F --> G["Assess User/Business Impact"]
+    G --> H["Retrieve Known Errors (KEDB)"]
+    H --> I["Review Historical Changes"]
+    I --> J["Generate Impact Report"]
+    J --> K["Risk Assessment & Approval"]
+
+    style A fill:#e3f2fd
+    style B fill:#e8f5e9
+    style C fill:#e8f5e9
+    style D fill:#e8f5e9
+    style E fill:#fff3e0
+    style F fill:#fff3e0
+    style G fill:#fff3e0
+    style H fill:#f3e5f5
+    style I fill:#f3e5f5
+    style J fill:#fce4ec
+    style K fill:#fce4ec
 ```
 
 **Impact Analysis Outputs:**
@@ -964,24 +971,31 @@ Risk Assessment & Approval
 
 **Data Quality Process:**
 
-```
-Data Entry/Integration
-       ↓
-Automated Validation Rules
-       ↓
-Data Quality Checks
-       ↓
-      Pass? ─── No ──→ Reject/Flag for Review
-       │                        ↓
-      Yes                  Data Steward Review
-       ↓                        ↓
-   Accepted                Correction
-       ↓                        ↓
-Data Quality Metrics ←──────────┘
-       ↓
-Quality Dashboard
-       ↓
-Continuous Improvement
+```mermaid
+flowchart TD
+    A["Data Entry/Integration"] --> B["Automated Validation Rules"]
+    B --> C["Data Quality Checks"]
+    C --> D{Pass?}
+    D -->|Yes| E["Accepted"]
+    D -->|No| F["Reject/Flag for Review"]
+    F --> G["Data Steward Review"]
+    G --> H["Correction"]
+    H --> I["Data Quality Metrics"]
+    E --> I
+    I --> J["Quality Dashboard"]
+    J --> K["Continuous Improvement"]
+
+    style A fill:#e3f2fd
+    style B fill:#e8f5e9
+    style C fill:#e8f5e9
+    style D fill:#fff3e0
+    style E fill:#c8e6c9
+    style F fill:#ffcdd2
+    style G fill:#f3e5f5
+    style H fill:#f3e5f5
+    style I fill:#e1f5fe
+    style J fill:#e1f5fe
+    style K fill:#e1f5fe
 ```
 
 **Data Quality Rules (Examples):**

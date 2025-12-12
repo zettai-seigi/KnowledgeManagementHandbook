@@ -67,58 +67,45 @@ Knowledge-Centered Service (KCS) is a service delivery methodology that integrat
 - Access to organization's collective knowledge
 - Higher first-contact resolution rates
 
-### KCS History and Evolution
-
-**Timeline**
-- **1992**: Consortium for Service Innovation founded
-- **1996**: KCS methodology framework published (v1.0)
-- **2003**: KCS v3 introduces content health metrics
-- **2009**: KCS v4 adds "Solve Loop" and "Evolve Loop" terminology
-- **2012**: KCS v5 emphasizes leadership and adoption practices
-- **2016**: KCS v6 current version, focus on integration and maturity
-
-**Industry Adoption**
-- 1,000+ organizations worldwide
-- Proven results across industries (IT, healthcare, manufacturing, telecom)
-- Supported by major ITSM tool vendors
-- Complementary to ITIL, ISO 20000, and other frameworks
-
 ---
 
 ## 16.2 KCS Core Concepts and Principles
 
 ### The KCS Framework Structure
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    KCS FRAMEWORK                            │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌───────────────────────────────────────────────────┐    │
-│  │         SOLVE LOOP (Operational)                  │    │
-│  │  • Search for existing knowledge                   │    │
-│  │  • Solve the issue and capture experience         │    │
-│  │  • Structure the article                          │    │
-│  │  • Reuse and improve content                      │    │
-│  └───────────────────────────────────────────────────┘    │
-│                                                             │
-│  ┌───────────────────────────────────────────────────┐    │
-│  │         EVOLVE LOOP (Continuous Improvement)      │    │
-│  │  • Content health (quality and relevance)         │    │
-│  │  • Process integration                             │    │
-│  │  • Performance assessment                          │    │
-│  │  • Leadership and communication                    │    │
-│  └───────────────────────────────────────────────────┘    │
-│                                                             │
-│  ┌───────────────────────────────────────────────────┐    │
-│  │         KCS ADOPTION & TRANSFORMATION             │    │
-│  │  • Leadership practices                            │    │
-│  │  • Communication and transparency                  │    │
-│  │  • Rewards and recognition                         │    │
-│  │  • Change management                               │    │
-│  └───────────────────────────────────────────────────┘    │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph framework["KCS FRAMEWORK"]
+        direction TB
+
+        subgraph solve["SOLVE LOOP (Operational)"]
+            S1["Search for existing knowledge"]
+            S2["Solve the issue and capture experience"]
+            S3["Structure the article"]
+            S4["Reuse and improve content"]
+        end
+
+        subgraph evolve["EVOLVE LOOP (Continuous Improvement)"]
+            E1["Content health (quality and relevance)"]
+            E2["Process integration"]
+            E3["Performance assessment"]
+            E4["Leadership and communication"]
+        end
+
+        subgraph adopt["KCS ADOPTION & TRANSFORMATION"]
+            A1["Leadership practices"]
+            A2["Communication and transparency"]
+            A3["Rewards and recognition"]
+            A4["Change management"]
+        end
+
+        solve --> evolve
+        evolve --> adopt
+    end
+
+    style solve fill:#e3f2fd
+    style evolve fill:#e8f5e9
+    style adopt fill:#fff3e0
 ```
 
 ### Eight Guiding Principles of KCS
@@ -154,65 +141,29 @@ Knowledge-Centered Service (KCS) is a service delivery methodology that integrat
 
 ### Solve Loop Process Flow
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                    SOLVE LOOP                                │
-└────────────────────────┬─────────────────────────────────────┘
-                         │
-                         ▼
-              ┌──────────────────┐
-              │  1. CAPTURE      │
-              │  Request/Issue   │
-              └────────┬─────────┘
-                       │
-                       ▼
-              ┌──────────────────┐
-              │  2. SEARCH       │
-              │  Is there known  │──YES──┐
-              │  solution?       │       │
-              └────────┬─────────┘       │
-                       │ NO              │
-                       ▼                 ▼
-              ┌──────────────────┐   ┌──────────────────┐
-              │  3. RESEARCH     │   │  4a. REUSE       │
-              │  Investigate &   │   │  Apply existing  │
-              │  Solve           │   │  solution        │
-              └────────┬─────────┘   └────────┬─────────┘
-                       │                      │
-                       ▼                      │
-              ┌──────────────────┐            │
-              │  4b. CAPTURE     │            │
-              │  Create new      │            │
-              │  article         │            │
-              └────────┬─────────┘            │
-                       │                      │
-                       └──────────┬───────────┘
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │  5. STRUCTURE    │
-                         │  Format to       │
-                         │  standards       │
-                         └────────┬─────────┘
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │  6. IMPROVE      │
-                         │  Update if       │
-                         │  incomplete      │
-                         └────────┬─────────┘
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │  7. FLAG         │
-                         │  Issues for      │
-                         │  review          │
-                         └────────┬─────────┘
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │  ISSUE RESOLVED  │
-                         └──────────────────┘
+```mermaid
+flowchart TD
+    subgraph SolveLoop["SOLVE LOOP"]
+        A[1. CAPTURE<br/>Request/Issue] --> B{2. SEARCH<br/>Is there known<br/>solution?}
+        B -->|YES| C[4a. REUSE<br/>Apply existing<br/>solution]
+        B -->|NO| D[3. RESEARCH<br/>Investigate &<br/>Solve]
+        D --> E[4b. CAPTURE<br/>Create new<br/>article]
+        C --> F[5. STRUCTURE<br/>Format to<br/>standards]
+        E --> F
+        F --> G[6. IMPROVE<br/>Update if<br/>incomplete]
+        G --> H[7. FLAG<br/>Issues for<br/>review]
+        H --> I([ISSUE RESOLVED])
+    end
+
+    style A fill:#e1f5fe
+    style B fill:#fff3e0
+    style C fill:#e8f5e9
+    style D fill:#fff3e0
+    style E fill:#e8f5e9
+    style F fill:#f3e5f5
+    style G fill:#f3e5f5
+    style H fill:#fce4ec
+    style I fill:#c8e6c9
 ```
 
 ### Solve Loop Activities in Detail
@@ -361,30 +312,43 @@ Knowledge-Centered Service (KCS) is a service delivery methodology that integrat
 
 ### Evolve Loop Components
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                      EVOLVE LOOP                             │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  ┌────────────────┐         ┌────────────────┐             │
-│  │ CONTENT HEALTH │◄────────┤ PERFORMANCE    │             │
-│  │                │         │ ASSESSMENT     │             │
-│  │ • Quality      │         │                │             │
-│  │ • Relevance    │         │ • Usage metrics│             │
-│  │ • Findability  │         │ • Value metrics│             │
-│  └───────┬────────┘         └────────────────┘             │
-│          │                                                  │
-│          ▼                                                  │
-│  ┌────────────────┐         ┌────────────────┐             │
-│  │ PROCESS        │────────►│ LEADERSHIP &   │             │
-│  │ INTEGRATION    │         │ COMMUNICATION  │             │
-│  │                │         │                │             │
-│  │ • Workflow     │         │ • Coaching     │             │
-│  │ • Tools        │         │ • Recognition  │             │
-│  │ • Governance   │         │ • Change mgmt  │             │
-│  └────────────────┘         └────────────────┘             │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    subgraph EvolveLoop["EVOLVE LOOP"]
+        direction TB
+
+        subgraph CH["CONTENT HEALTH"]
+            CH1["• Quality"]
+            CH2["• Relevance"]
+            CH3["• Findability"]
+        end
+
+        subgraph PA["PERFORMANCE ASSESSMENT"]
+            PA1["• Usage metrics"]
+            PA2["• Value metrics"]
+        end
+
+        subgraph PI["PROCESS INTEGRATION"]
+            PI1["• Workflow"]
+            PI2["• Tools"]
+            PI3["• Governance"]
+        end
+
+        subgraph LC["LEADERSHIP & COMMUNICATION"]
+            LC1["• Coaching"]
+            LC2["• Recognition"]
+            LC3["• Change mgmt"]
+        end
+
+        PA --> CH
+        CH --> PI
+        PI --> LC
+    end
+
+    style CH fill:#e3f2fd
+    style PA fill:#e8f5e9
+    style PI fill:#fff3e0
+    style LC fill:#f3e5f5
 ```
 
 ### Content Health Management
@@ -481,37 +445,25 @@ Knowledge-Centered Service (KCS) is a service delivery methodology that integrat
 
 **Role Progression Path**
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                KCS ROLE PROGRESSION                          │
-└────────────────────────┬─────────────────────────────────────┘
-                         │
-    ┌────────────────────┼────────────────────┐
-    │                    │                    │
-    ▼                    ▼                    ▼
-┌──────────┐      ┌──────────┐      ┌────────────────┐
-│ New Hire │      │ KCS      │      │ KCS Candidate  │
-│          │─────►│ Learner  │─────►│ Contributor    │
-│  0-30    │      │  30-90   │      │  90-180 days   │
-│  days    │      │  days    │      │                │
-└──────────┘      └──────────┘      └────────┬───────┘
-                                              │
-                  ┌───────────────────────────┘
-                  │
-                  ▼
-         ┌────────────────┐
-         │ KCS            │
-         │ Contributor    │────────────────┐
-         │ (Licensed)     │                │
-         └────────┬───────┘                │
-                  │                        │
-    ┌─────────────┼──────────────┐        │
-    │             │              │        │
-    ▼             ▼              ▼        ▼
-┌─────────┐ ┌──────────┐ ┌──────────┐ ┌────────────┐
-│ KCS     │ │ KCS      │ │ KCS      │ │ KCS Program│
-│ Coach   │ │ Analyst  │ │ Publisher│ │ Manager    │
-└─────────┘ └──────────┘ └──────────┘ └────────────┘
+```mermaid
+flowchart TD
+    NH["New Hire<br/>0-30 days"] --> KL["KCS Learner<br/>30-90 days"]
+    KL --> KC["KCS Candidate<br/>Contributor<br/>90-180 days"]
+    KC --> CONT["KCS Contributor<br/>(Licensed)"]
+
+    CONT --> COACH["KCS Coach"]
+    CONT --> ANALYST["KCS Analyst"]
+    CONT --> PUB["KCS Publisher"]
+    CONT --> PM["KCS Program<br/>Manager"]
+
+    style NH fill:#fce4ec
+    style KL fill:#fff3e0
+    style KC fill:#e8f5e9
+    style CONT fill:#e3f2fd
+    style COACH fill:#f3e5f5
+    style ANALYST fill:#f3e5f5
+    style PUB fill:#f3e5f5
+    style PM fill:#f3e5f5
 ```
 
 ### Contributor Licensing Framework
@@ -581,57 +533,37 @@ License valid: [Date] to [Annual renewal date]
 
 ### Article States and Transitions
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                  KCS ARTICLE LIFECYCLE                       │
-└────────────────────────┬─────────────────────────────────────┘
-                         │
-                         ▼
-                  ┌──────────┐
-                  │  DRAFT   │ ◄──────────────────┐
-                  └────┬─────┘                    │
-                       │                          │
-                       │ Structured & ready       │
-                       ▼                          │
-                  ┌──────────┐                    │
-                  │  WORK IN │                    │
-                  │ PROGRESS │                    │
-                  └────┬─────┘                    │
-                       │                          │
-                       │ Complete                 │ Needs revision
-                       ▼                          │
-                  ┌──────────┐                    │
-                  │ PENDING  │──Review required──►│
-                  │ REVIEW   │                    │
-                  └────┬─────┘                    │
-                       │                          │
-                       │ Approved                 │
-                       ▼                          │
-                  ┌──────────┐                    │
-                  │PUBLISHED │ ◄─────────────┐   │
-                  └────┬─────┘               │   │
-                       │                     │   │
-         ┌─────────────┼──────────────┐     │   │
-         │             │              │     │   │
-         ▼             ▼              ▼     │   │
-    ┌────────┐   ┌─────────┐   ┌─────────┐│   │
-    │FLAGGED │   │ UPDATED │   │ LINKED  ││   │
-    │        │   │         │   │ TO NEW  ││   │
-    └───┬────┘   └────┬────┘   └────┬────┘│   │
-        │             │              │     │   │
-        └─────────────┴──────────────┴─────┘   │
-                      │                        │
-                      │ Superseded or obsolete │
-                      ▼                        │
-                  ┌──────────┐                 │
-                  │ ARCHIVED │─────────────────┘
-                  └──────────┘
-                      │
-                      │ Retention period expired
-                      ▼
-                  ┌──────────┐
-                  │ DELETED  │
-                  └──────────┘
+```mermaid
+stateDiagram-v2
+    [*] --> Draft: Create article
+
+    Draft --> WIP: Structured & ready
+    WIP --> PendingReview: Complete
+    PendingReview --> Draft: Needs revision
+    PendingReview --> Published: Approved
+
+    Published --> Flagged: Issue identified
+    Published --> Updated: Content improved
+    Published --> LinkedToNew: Related article created
+
+    Flagged --> Published: Issue resolved
+    Updated --> Published: Update applied
+    LinkedToNew --> Published: Link added
+
+    Published --> Archived: Superseded or obsolete
+    Archived --> Draft: Reactivated
+    Archived --> Deleted: Retention period expired
+    Deleted --> [*]
+
+    Draft: DRAFT<br/>Initial capture
+    WIP: WORK IN PROGRESS<br/>Active development
+    PendingReview: PENDING REVIEW<br/>Awaiting validation
+    Published: PUBLISHED<br/>Available for use
+    Flagged: FLAGGED<br/>Needs attention
+    Updated: UPDATED<br/>Content improved
+    LinkedToNew: LINKED TO NEW<br/>Related article
+    Archived: ARCHIVED<br/>No longer current
+    Deleted: DELETED<br/>Permanently removed
 ```
 
 ### Lifecycle State Definitions

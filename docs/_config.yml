@@ -32,6 +32,9 @@ exclude:
   - "images/README.md"
   - "images/VISUAL-SPECIFICATIONS-INDEX.md"
 
+mermaid:
+  version: "11"
+
 kramdown:
   syntax_highlighter_opts:
     block:

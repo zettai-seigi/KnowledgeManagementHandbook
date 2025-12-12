@@ -298,62 +298,57 @@ Implement three permanent solutions:
 
 **Figure 15.2: KEDB Lifecycle**
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    KEDB ENTRY LIFECYCLE                      │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+stateDiagram-v2
+    [*] --> Identified: Problem diagnosed
 
-    ┌──────────────┐
-    │  PROBLEM     │
-    │  DIAGNOSED   │
-    └──────┬───────┘
-           │
-           ▼
-    ┌──────────────┐         Entry Criteria:
-    │  IDENTIFIED  │         • Root cause known
-    │              │         • Workaround being developed
-    │  Owner:      │         • Impact assessed
-    │  Problem Mgr │
-    └──────┬───────┘
-           │ Workaround tested
-           ▼
-    ┌──────────────┐         Entry Criteria:
-    │  ACTIVE      │         • Workaround validated
-    │              │         • Usage instructions complete
-    │  Owner:      │         • Related incidents linked
-    │  Problem Mgr │
-    └──────┬───────┘
-           │ Permanent fix developed
-           ▼
-    ┌──────────────┐         Entry Criteria:
-    │ FIX AVAILABLE│         • Fix tested successfully
-    │              │         • Change approved
-    │  Owner:      │         • Implementation scheduled
-    │  Change Mgr  │
-    └──────┬───────┘
-           │ Fix deployed and verified
-           ▼
-    ┌──────────────┐         Entry Criteria:
-    │  RESOLVED    │         • Fix validated in production
-    │              │         • No recurrence for 30 days
-    │  Owner:      │         • Documentation updated
-    │  Problem Mgr │
-    └──────┬───────┘
-           │ Retention period expires
-           │ OR system retired
-           ▼
-    ┌──────────────┐         Entry Criteria:
-    │  OBSOLETE    │         • System/service retired
-    │              │         • Superseded by new solution
-    │  Owner:      │         • No usage for 180 days
-    │  Knowledge Mgr│
-    └──────┬───────┘
-           │
-           ▼
-    ┌──────────────┐
-    │  ARCHIVED    │
-    │              │
-    └──────────────┘
+    Identified --> Active: Workaround tested
+    Active --> FixAvailable: Permanent fix developed
+    FixAvailable --> Resolved: Fix deployed & verified
+    Resolved --> Obsolete: Retention expires or system retired
+    Obsolete --> Archived: Archive
+
+    Identified: IDENTIFIED<br/>Owner: Problem Mgr
+    Active: ACTIVE<br/>Owner: Problem Mgr
+    FixAvailable: FIX AVAILABLE<br/>Owner: Change Mgr
+    Resolved: RESOLVED<br/>Owner: Problem Mgr
+    Obsolete: OBSOLETE<br/>Owner: Knowledge Mgr
+    Archived: ARCHIVED
+
+    note right of Identified
+        Entry Criteria:
+        • Root cause known
+        • Workaround being developed
+        • Impact assessed
+    end note
+
+    note right of Active
+        Entry Criteria:
+        • Workaround validated
+        • Usage instructions complete
+        • Related incidents linked
+    end note
+
+    note right of FixAvailable
+        Entry Criteria:
+        • Fix tested successfully
+        • Change approved
+        • Implementation scheduled
+    end note
+
+    note right of Resolved
+        Entry Criteria:
+        • Fix validated in production
+        • No recurrence for 30 days
+        • Documentation updated
+    end note
+
+    note right of Obsolete
+        Entry Criteria:
+        • System/service retired
+        • Superseded by new solution
+        • No usage for 180 days
+    end note
 ```
 
 #### Table 15.2: KEDB Maintenance Standards
